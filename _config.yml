@@ -2,4 +2,3 @@ name: Sylvain Zircher
 markdown: kramdown
 sass:
   sass_dir: _sass
-theme: jekyll-theme-cayman
