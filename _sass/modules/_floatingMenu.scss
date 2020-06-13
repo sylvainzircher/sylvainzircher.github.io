@@ -63,3 +63,14 @@ div .fa-reorder {
     color: $brand;
   }  
 }
+
+@media only screen and (max-device-width: 480px) {
+  div .fa-reorder {
+    font-size: 40px;
+  }
+  #nav-list a {
+    line-height: 60px; 
+    height: 60px;
+    font-size: 40px;      
+  }
+}
