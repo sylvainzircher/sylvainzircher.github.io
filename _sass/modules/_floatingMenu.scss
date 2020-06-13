@@ -7,10 +7,10 @@ div .nav-mobile {
 }
 
 div .fa-reorder {
-  display: block;
+  display: none;
 }
 
-@media only screen and (max-width: 840px) {/**, only screen and (max-device-width: 480px) {**/
+/**@media only screen and (max-width: 840px) {, only screen and (max-device-width: 480px) {
 
    div .nav-mobile {
     display: block; 
@@ -63,3 +63,4 @@ div .fa-reorder {
     color: $brand;
   }  
 }
+**/
