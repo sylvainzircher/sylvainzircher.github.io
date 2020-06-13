@@ -139,23 +139,3 @@
 	color: white;
 	font-size: 16px;
 }
-
-@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
-	.content-resources p {
-		margin-top: 100px;
-		font-size: 1.5em;
-	}
-	.content-resources h1 {
-		color: black;
-	  	font-weight: 100;
-	  	font-size: 1.7;
-	  	margin-top: 100px;
-	}
-	.content-resources .blog {
-		width: 80%;
-		height: 60%;
-	}
-	.content-resources .resource {
-		width: 60%;
-	}
-}
