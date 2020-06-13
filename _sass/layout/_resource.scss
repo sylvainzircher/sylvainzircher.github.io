@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
   .post-header, .post {
     width: $websiteMobileWidth;
     margin: 0 auto;

@@ -10,7 +10,7 @@ div .fa-reorder {
   display: none;
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
 
    div.nav-mobile {
     display: block; 
@@ -21,7 +21,7 @@ div .fa-reorder {
   }
 
   div .fa-reorder {
-    font-size: 1.5em;
+    font-size: 20px;
     vertical-align: middle;
     text-align: center;
     height: 100%;
@@ -56,7 +56,7 @@ div .fa-reorder {
     color: $headerText;
     display: block; 
     font-weight: 300;  
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #nav-list a:hover {

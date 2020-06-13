@@ -19,10 +19,16 @@
 	width: 80%;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .statement h1 {
+    font-size: 3em;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .statement h1 {
-    font-size: 36px;
-  }
+    font-size: 2em;
+  }	
 }
 
 .statement img {

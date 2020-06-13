@@ -21,12 +21,11 @@
   /**height: 100%;**/
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
   .site-header-content-wrapper {
     width: $websiteMobileWidth;
     margin: 0 auto;
   }
-
 }
 
 .site-header-content-wrapper .nav h4, .site-header-content-wrapper h1 {
