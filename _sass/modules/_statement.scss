@@ -1,0 +1,36 @@
+.statement {
+	background-color: $headerBackground;
+	height: 400px;
+}
+
+.statementWrapper {
+	width: $websiteDesktopWidth;
+	margin: 0 auto;
+	height: 400px;
+    display:flex;
+    align-items: center;  
+}
+
+.statement h1 {
+	display: inline-block;
+	color: $statementText;
+	font-weight: 10;  
+	font-size: 46px;
+	width: 80%;
+}
+
+@media only screen and (max-width: 840px) {
+  .statement h1 {
+    font-size: 36px;
+  }
+}
+
+.statement img {
+	display: inline-block;
+	float: right;
+	/**
+	position: absolute;
+	top: -50px;
+	right: -490px;
+	**/
+}

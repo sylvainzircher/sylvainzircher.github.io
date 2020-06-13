@@ -1,10 +1,9 @@
----
----
 <!DOCTYPE html>
 	<html>
 		<head>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+			<link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}" />
+
 			<!-- CDN for Awesome Font -->
 			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
 			<!-- JQuery -->
@@ -12,14 +11,12 @@
 			<!-- JQuery UI -->
 			<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" /> 	
 			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-			<!-- JS -->
-			<script src="{{ '/assets/js/MobileNav.js' | relative_url }}"></script>
 		</head>
 
 		<body>
-			{% include header.html %}
-			{% include statement.html %}
-			{% include content-homepage.html %}
-			{% include footer.html %}
+			<section class="landing">
+				{{ content }}
+			</section>
 		</body>
+
 	</html>

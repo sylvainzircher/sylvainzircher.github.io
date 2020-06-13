@@ -1,0 +1,321 @@
+/**
+ * Content Blog
+ */
+
+/**
+ * Background
+ */
+
+.whiteBckgd {
+  background-color: white;
+}
+
+/**
+ * Code snippets
+ */
+
+.language-python, .language-r, .language-plaintext, .language-javascript {
+  display: block;
+  overflow: auto;
+  margin-bottom: 3%;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 1%;
+}
+
+
+/**
+ * Tables
+ */
+
+table {
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 3%;
+  table-layout: auto;
+  overflow: scroll;
+}
+
+thead tr {
+  text-align: center;
+}
+
+thead tr:last-child {
+  border-bottom: 1px solid #ccc;    
+}
+
+thead th {
+  background-color: #ccc;
+  border-left: none;
+  border-right: none;  
+}
+
+tbody th, tbody td {
+  border-right: none;
+  border-left: none;
+}
+
+td {
+  border-bottom: 1px solid #ddd;  
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+th, td {
+  padding: 1%;
+}
+
+/**
+ * Headers
+ */
+
+title { 
+  padding: 3% 3%; 
+  color: #111111;
+}
+
+h1 { 
+  font-weight: 500; 
+  font-size: 1.5em; 
+  margin: 0px 0px 0px 0px; 
+  line-height: 120%; 
+  font-family: $font;
+}
+
+h3 { 
+  font-weight: 500;
+  font-size: 1.4em; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 36px;  
+  font-family: $font; 
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+ /**
+ * Paragraph
+ */
+
+.article p { 
+  color: $textColor; 
+  font-size: 18px;
+  line-height: 36px; 
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+/**
+ * Blockquotes
+ */
+
+blockquote { 
+  padding: 3% 3%; 
+  font-weight: 1000; 
+  font-family: $font; 
+  font-size: 1.2em; 
+  line-height: 32px; 
+  margin-top: 40px;
+  margin-bottom: 40px; 
+  margin-left: 30px;
+  border-left: 5px solid #292826;   
+  color: #505050;
+  background-color: #F5F3F3;  
+}
+
+blockquote .before {
+  font-size: 2em;
+  display: block;
+  font-family: $font;
+  color: #292826;  
+}
+
+
+/**
+ * Articles
+ */
+
+.article-header {
+
+  /* Set a specific height */
+  height: 400px;
+  /* Position and center the image to scale nicely on all screens */
+  background-color: $headerBackground;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1000;
+}
+
+/* Place text in the middle of the image */
+.article-header .text {
+  text-align: left;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: $blogDesktopWidth;
+  display: inline-block;
+}  
+
+.article-header .text h1 {
+  color: $statementText;
+  font-weight: 10;  
+  font-size: 46px; 
+  width: 100%;
+  margin-bottom: 30px;     
+}
+
+.article-header .text h2 {
+  color: $statementText;
+  font-weight: 600;  
+  font-size: 30px;  
+  width: 100%;
+  margin-bottom: 24px;       
+}
+
+@media only screen and (max-width: 840px) {
+  .article-header .text {
+    width: $websiteMobileWidth;
+  }
+}
+
+.author {
+  width: 100%;  
+  font-family: $font; 
+  color: $statementText;
+}
+
+.separator {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: $statementText;
+}
+
+.category {
+  color: $statementText;  
+}
+
+.article {
+  width: $blogDesktopWidth;
+  margin: 0 auto;  
+}
+
+.article .intro {
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/**
+.article p {
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 32px;  
+}
+**/
+
+.article p { 
+  color: $textColor; 
+  font-size: 18px;
+  line-height: 36px; 
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.article a {
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: $font; 
+  color: #505050;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  text-decoration: none;
+  border-bottom: 4px solid #F9D342;
+  transition: all 0.3s ease-in-out;
+}
+
+.article a:hover {
+  color: #292826;
+  background-color: #F9D342;
+  border-bottom: none;
+  transition: all 0.3s ease-out-in;
+}
+
+.next-level {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #292826;
+  background-color: #FFF3CD;
+  border: solid 1px #F9D342;
+  border-radius: 3px;
+  box-shadow: none;
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.05);
+  transition: box-shadow 0.5s ease-in-out;
+  text-align: center;
+}
+
+.next-level span {
+  color: #292826;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.next-level:hover {
+  box-shadow: 1px 1px 5px 5px rgba(0,0,0,0.20);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.article li {
+  margin-left: 30px;
+}
+
+.article li li {
+  font-size: 16px;
+  line-height: 32px;
+  font-family: $font; 
+  color: #505050; 
+  font-size: 1.0em;
+  margin-bottom: 3%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 840px) {
+  .article {
+    width: $websiteMobileWidth;
+    margin: 0 auto;
+  }
+  .img-to-resize {
+    margin-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+  } 
+  .article .intro {
+    margin-bottom: 30px;
+  } 
+}
+
+/**
+@media only screen and (max-width: 600px) {
+  img {
+    margin-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+**/

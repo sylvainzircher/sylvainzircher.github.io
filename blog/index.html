@@ -1,0 +1,74 @@
+---
+---
+<!DOCTYPE html>
+	<html>
+		<head>
+			
+			<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+
+			<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+			
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
+			
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			
+			<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" /> 	
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+			
+			<script src="{{ '/assets/js/MobileNav.js' | relative_url }}"></script>
+		</head>
+
+		<body>
+			{% include header.html %}
+			<section class="blogList">
+			<ul>
+				{% for post in site.posts %}
+					{% if post.type contains 'Article' %}
+						{% if post.title contains 'Summarize' %}
+							<style>
+							.automate {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .automate {   
+							        background-image: url({{'/assets/img/articles/NPS-automate-topic-discovery/list-vignette.png' | relative_url }});
+							    }
+							}
+							</style>
+							<li class="automate">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}
+						{% if post.title contains 'Central Limit Theorem' %}
+							<style>
+							.clt {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .clt {   
+							        background-image: url({{'/assets/img/articles/CLT/CLT-listobject-hover-2.png' | relative_url }});
+							    }
+							}
+							</style>						
+							<li class="clt">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}
+					{% endif %}
+				{% endfor %}	
+			</ul>	
+			</section>	
+			{% include footer.html %}
+		</body>
+
+	</html>

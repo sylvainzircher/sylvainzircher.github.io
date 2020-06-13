@@ -1,0 +1,91 @@
+/**
+ * Content Blog
+ */
+
+
+.blogList li {
+  height: 300px;
+  margin: 0 auto;  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: $blogDesktopWidth;
+  list-style-type: none;
+  border: 1px solid $border;
+  background-color: white;
+  transition: box-shadow 0.5s ease-in-out;
+ }
+
+.blogList li:hover {
+  box-shadow: 0 0.3125rem 1.25rem rgba(24,63,101,.25);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blogList ul li a {
+  text-decoration: none;
+  height: 300px;
+  width: $blogDesktopWidth;
+  display: inline-block;
+}
+
+.blogList ul {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.blogList .category {
+  color: $blogCategory;
+  display: block;
+  float: left;
+  margin-top: 70px;
+  margin-left: 50px;
+  padding: 3px;
+  border: 1px solid $blogCategory;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle; 
+  font-size: 0.8em; 
+}
+
+.blogList .title {
+  color: $textColor;
+  display: block;
+  float: left;
+  clear: left;
+  width: $blogDesktopWidth/2;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: black;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 30PX;
+}
+
+.blogList .authorNdate {
+  color: $textColor;
+  display: block;
+  float: left;
+  clear: left;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: 400; 
+  font-size: 0.9em; 
+  line-height: 100%;
+}
+
+@media only screen and (max-width: 840px) {
+  .blogList ul li a {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .blogList li { 
+    width: 80%;
+  }
+  .blogList .title {
+    width: 80%;
+    font-size: 2em; 
+  }
+  .blogList .category {
+    margin-top: 40px;
+  }
+}

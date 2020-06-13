@@ -1,0 +1,93 @@
+
+<section class="content-resources">
+	<p>A list of common code and formulas I use on a regular bases, including some of my own personal ones </p>
+	<section class="top">
+		<h1>My own tools</h1>
+		<ul>
+			{% for post in site.posts %}
+				{% if post.title contains 'Summarize' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/NPS-automate-topic-discovery/NPS-automate-homepage-vignette.png' | relative_url }}" alt="Take your NPS analysis to the next level">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
+	<div style="clear: both;"></div> 
+	<section class="bottom">
+		<section class="code-section">
+			<h1> R </h1>
+			<ul>
+			{% for post in site.posts %}
+				{% if post.type != 'Article' %}					
+					{% if post.categories contains 'R' %}
+						<li style="border: 1px solid #EAE3E3;" class="resource">
+							<a href = "{{ post.url }}">
+								<div class="category-wrapper"  style="background-color: #4A4A4A;"><span class="category">{{ post.categories }}</span></div>
+								<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+							</a>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</section>
+		<section class="code-section">
+			<h1> Google Sheets </h1>
+			<ul>
+			{% for post in site.posts %}
+				{% if post.type != 'Article' %}
+					{% if post.categories contains 'Sheets' %}
+						<li style="border: 1px solid #EAE3E3;" class="resource">
+							<a href = "{{ post.url }}">
+								<div class="category-wrapper" style="background-color: #1CA362;"><span class="category">{{ post.categories }}</span></div>
+								<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+							</a>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			</ul>
+		</section>
+			<section class="code-section">
+			<h1> Apps Script </h1>
+			<ul>
+			{% for post in site.posts %}
+				{% if post.type != 'Article' %}				
+					{% if post.categories contains 'Apps-Script' %}
+						<li style="border: 1px solid #EAE3E3;" class="resource">
+							<a href = "{{ post.url }}">
+								<div class="category-wrapper"  style="background-color: #79B2FF;"><span class="category">{{ post.categories }}</span></div>
+								<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+							</a>
+						</li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			</ul>
+			</section>
+		<section class="code-section">
+			<h1> Python </h1>
+			<ul>
+			{% for post in site.posts %}
+				{% if post.type != 'Article' %}
+					{% if post.categories contains 'python' %}
+						<li style="border: 1px solid #EAE3E3;" class="resource">
+							<a href = "{{ post.url }}">
+								<div class="category-wrapper"  style="background-color: #F9D342;"><span class="category">{{ post.categories }}</span></div>
+								<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+							</a>
+						</li>						
+					{% endif %}
+				{% endif %}
+			{% endfor %}						
+			</ul>
+		</section>
+	</section>
+	<div style="clear: both;"></div> 
+</section>	

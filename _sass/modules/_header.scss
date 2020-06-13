@@ -1,0 +1,66 @@
+/**
+ * Site Header
+ */
+
+.site-header {  
+  background-color: $headerBackground;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.site-header-content-wrapper {
+  width: $websiteDesktopWidth;
+  margin: 0 auto;
+}
+
+.site-header-content-wrapper {
+  line-height: 30px;
+}
+
+.site-header-content-wrapper .nav {
+  /**height: 100%;**/
+}
+
+@media only screen and (max-width: 840px) {
+  .site-header-content-wrapper {
+    width: $websiteMobileWidth;
+    margin: 0 auto;
+  }
+
+}
+
+.site-header-content-wrapper .nav h4, .site-header-content-wrapper h1 {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  margin-bottom: 0; 
+}
+
+.site-header-content-wrapper h1 {
+  color: $headerText;
+  font-weight: 300;  
+  font-size: 16px;
+}
+
+.site-header-content-wrapper .nav h4 {
+  color: $headerText;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.site-header-content-wrapper .nav span {
+  color: $headerText;
+  font-weight: 300;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.site-header-content-wrapper .nav h4:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.site-header-content-wrapper .nav {
+  float: right;
+}

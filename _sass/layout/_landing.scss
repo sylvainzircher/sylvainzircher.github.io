@@ -1,0 +1,88 @@
+.landing {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 { 
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  color: #292826;
+  line-height: 120%; 
+  font-family: 'Open sans', sans-serif;
+}
+
+h3 { 
+  font-size: 1.4em; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+  line-height: 36px;  
+  font-family: 'Open sans', sans-serif;
+  text-align: center; 
+  color: #aaa;
+  color: #505050;   
+}
+
+h3 .price {
+  font-size: 1.5em; 
+  color: #FF7B02;
+}
+
+.benefits div {
+  height: 350px;
+}
+
+.benefits h3 {
+  float: left;
+  width: 400px;
+  text-align: justify;
+}
+
+.benefits img {
+  float: right;
+  width: 350px;
+}
+
+a {
+  font-size: 1.2em;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  padding: 10px;
+  background-color: #FEE4CB;
+  color: #FF7B02;  
+  border-radius: 5px;
+  border: 2px solid #FF7B02;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  background-color: #FF7B02;
+  color: white;
+  transition: all 0.5s ease-in-out;  
+}
+
+img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+p { 
+  font-family: 'Open sans', sans-serif; 
+  color: #505050; 
+  font-size: 1.2em;
+  margin-bottom: 3%;
+  text-align: center;
+  line-height: 32px; 
+}
+
+.benefits p {
+  width: 400px;
+  text-align: justify;
+}

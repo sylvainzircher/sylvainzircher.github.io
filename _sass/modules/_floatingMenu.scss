@@ -1,0 +1,65 @@
+/**
+ * Floating menu
+ */
+
+div .nav-mobile {
+  display: none;
+}
+
+div .fa-reorder {
+  display: none;
+}
+
+@media only screen and (max-width: 840px) {
+
+   div.nav-mobile {
+    display: block; 
+  }
+
+  div .nav {
+    display: none;
+  }
+
+  div .fa-reorder {
+    font-size: 1.5em;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    color: $brand; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    right: 10%;
+    top: 50px;
+  }
+
+  #nav-list {
+    display: none;    
+    text-align: left;
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid $headerText;
+    border-bottom: 1px solid $headerText;
+  }
+
+  #nav-list a {
+    line-height: 40px; 
+    height: 40px;  
+    width: 200px;  
+    text-decoration: none;
+    background-color: $headerBackground; 
+    color: $headerText;
+    display: block; 
+    font-weight: 300;  
+    font-size: 14px;
+  }
+
+  #nav-list a:hover {
+    color: $brand;
+  }  
+}

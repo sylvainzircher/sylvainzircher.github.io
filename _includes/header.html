@@ -1,0 +1,18 @@
+<section class = "site-header"> 
+	<div class = "site-header-content-wrapper">
+		<a href= "{{ 'index.html' | relative_url }}"><h1> {{ site.name }} </h1></a>
+		<div class = "nav">
+			<a href= "{{ '/resources/' | relative_url }}"><h4>Resources</h4></a><span> | </span> 
+			<a href= "{{ '/blog/' | relative_url }}"><h4>Blog</h4></a><span> | <span> 
+			<a href= "{{ '/AboutMe/' | relative_url }}"><h4>About</h4></a>
+		</div>
+		<div class="nav-mobile">
+			<ul id="nav-list">
+				<a href= "{{ '/resources/' | relative_url }}">Resources</a>
+				<a href= "{{ '/blog/' | relative_url }}">Blog</a>
+				<a href= "{{ '/AboutMe/' | relative_url }}">About</a>
+			</ul>
+		</div>
+		<i class="fa fa-reorder"></i>
+	</div>
+</section>

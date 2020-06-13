@@ -1,10 +1,9 @@
----
----
 <!DOCTYPE html>
 	<html>
 		<head>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+
 			<!-- CDN for Awesome Font -->
 			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
 			<!-- JQuery -->
@@ -16,10 +15,24 @@
 			<script src="{{ '/assets/js/MobileNav.js' | relative_url }}"></script>
 		</head>
 
-		<body>
-			{% include header.html %}
-			{% include statement.html %}
-			{% include content-homepage.html %}
+		<body class="whiteBckgd">
+			{% include header.html %}			
+			<!--<section class="article-header" style="background-image: linear-gradient(rgba(44, 91, 156, 0.8), rgba(44, 91, 156, 0.8)), url('/assets/img/articles/test.png');">-->
+				<section class="article-header">
+				<div class="text">
+					<h1> {{ page.title }} </h1>
+					<h2> {{ page.subtitle }}</h2>
+					<span class="author">{{ page.author }}</span>
+					<span class="separator">|</span>
+					<!--<span class="date">{{ page.date | date: '%B %d, %Y' }}</span>
+					<span class="separator">|</span>-->
+					<span class="category">{{ page.category }}</span>
+				</div>
+			</section>				
+			<section class="article">
+				{{ content }}
+			</section>
 			{% include footer.html %}
 		</body>
+
 	</html>

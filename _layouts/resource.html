@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+			<!-- CDN for Awesome Font -->
+			<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
+			<!-- JQuery -->
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+			<!-- JQuery UI -->
+			<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" /> 	
+			<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+			<!-- JS -->
+			<script src="{{ '/assets/js/MobileNav.js' | relative_url }}"></script>
+		</head>
+
+		<body>
+			{% include header.html %}
+			<div class="post-wrapper">
+				<section class="post-header">
+					<h1>{{ page.title }}</h1>
+					<!-- <h2 class="date">{{ page.date | date: '%B %d, %Y' }}</h2> -->
+					{% if page.categories contains 'R' %}
+						<div class="tag" style="background-color:#4A4A4A;color:white;">{{ page.categories }}</div>
+					{% elsif page.categories contains 'Sheets' %}
+						<div class="tag" style="background-color:#1CA362;color:white;">{{ page.categories }}</div>
+					{% elsif page.categories contains 'Apps-Script' %}
+						<div class="tag" style="background-color:#79B2FF;color:white;">{{ page.categories }}</div>
+					{% else %}
+						<div class="tag" style="background-color:#F9D342;color:white;">{{ page.categories }}</div>
+					{% endif %}
+				</section>	
+				<section class="post">
+					{{ content }}
+				</section>
+			</div>
+			{% include footer.html %}
+		</body>
+
+	</html>

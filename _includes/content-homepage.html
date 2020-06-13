@@ -1,0 +1,87 @@
+<section class="content-homepage">
+	<section class="top">
+		<h1>Resources</h1>
+		<ul>		
+			{% for post in site.posts %}
+				{% if post.title contains 'Summarize' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/NPS-automate-topic-discovery/NPS-automate-homepage-vignette.png' | relative_url }}" alt="Take your NPS analysis to the next level">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+			
+			{% for post in site.posts %}
+				{% if post.title == 'How to do translations right in your GoogleSheets' %}
+					<li style="border: 1px solid #EAE3E3;" class="resource">
+						<a href = "{{ post.url }}">
+							<div class="categorie-wrapper"><span class="category">{{ post.categories }}</span></div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+			
+			{% for post in site.posts %}
+				{% if post.title == 'Reshape a DataFrame from long to wide format' %}
+					<li style="border: 1px solid #EAE3E3;" class="resource">
+						<a href = "{{ post.url }}">
+							<div class="categorie-wrapper" style="background-color: #F9D342;"><span class="category">{{ post.categories }}</span></div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		<div style="clear: both;"></div>
+		<a href= "{{ '/resources/' | relative_url }}"><div class="more">More</div></a>
+	</section>
+	<section class="bottom">
+		<h1>Blog</h1>
+		<ul>		
+		{% for post in site.posts %}
+			{% if post.type contains 'Article' %}
+				{% if post.title contains 'NPS' %}						
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/NPS/NPS-homepage-vignette.png' | relative_url }}" alt="Take your NPS analysis to the next level">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+				
+				{% if post.title contains 'Central Limit Theorem' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/CLT/CLT-homepage-vignette.png' | relative_url }}" alt="Take your NPS analysis to the next level">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+
+				{% if post.title contains 'Summarize' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/NPS-automate-topic-discovery/NPS-automate-homepage-vignette.png' | relative_url }}" alt="Take your NPS analysis to the next level">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+		</ul>
+		<div style="clear: both;"></div>
+		<a href= "{{ '/blog/' | relative_url }}"><div class="more">More</div></a>
+	</section>
+	<div style="clear: both;"></div>
+</section>
