@@ -66,11 +66,11 @@ div .fa-reorder {
 
 @media only screen and (max-device-width: 480px) {
   div .fa-reorder {
-    font-size: 40px;
+    font-size: 5vw;;
   }
   #nav-list a {
-    line-height: 70px; 
-    height: 70px;
-    font-size: 40px;      
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 3vw;      
   }
 }
