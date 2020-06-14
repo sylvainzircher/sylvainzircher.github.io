@@ -54,3 +54,12 @@
   }
 
 }
+
+@media only screen and (max-device-width: 480px) {
+	.aboutme p {
+    	font-size: 2vw;
+  	}
+  	.aboutme h1 {
+  		font-size: 3vw;
+  	}
+}
