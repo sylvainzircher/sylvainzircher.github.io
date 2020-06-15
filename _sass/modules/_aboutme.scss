@@ -40,6 +40,7 @@
 
 @media only screen and (max-width: 840px),  only screen and (max-device-width: 840px) {
   .aboutme, .aboutme p {
+  	width: $websiteDesktopWidth;
     margin: 0 auto;
   }
 
@@ -60,12 +61,12 @@
     margin: 0 auto;
   }	
 	.aboutme p {
-    	font-size: 4vw;
+    	font-size: $mobileParagraphFontSize;
     	line-height: 5vw;
-	    margin-bottom: 10%;
-	    margin-top: 10%;    	
+	    margin-bottom: $mobileParagraphMargin;
+	    margin-top: $mobileParagraphMargin;
   	}
   	.aboutme h1 {
-  		font-size: 5vw;
+  		font-size: $mobileTitleFontSize;
   	}
 }

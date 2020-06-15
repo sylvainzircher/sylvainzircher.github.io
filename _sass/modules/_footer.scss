@@ -29,6 +29,6 @@
 
 @media only screen and (max-device-width: 480px) {
 .site-footer-content-wrapper p {
-    font-size: 2vw;;
+    font-size: $mobileFooterFontSize;
   }
 }

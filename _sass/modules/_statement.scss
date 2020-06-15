@@ -21,7 +21,7 @@
 
 @media only screen and (max-device-width: 480px) {
   .statement h1 {
-    font-size: 3em;
+    font-size: $mobileTitleFontSize;
   }
 }
 
