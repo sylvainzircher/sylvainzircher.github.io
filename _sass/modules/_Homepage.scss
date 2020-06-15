@@ -179,12 +179,15 @@
 	.content-homepage .blog .title {
 		color: $textColor;
 		font-size: $mobileParagraphFontSize;
-		width: 70%;
+		width: 60%;
 		float: right;
+		padding-top: 50px;
+		padding-right: 5%;
+		padding-left: 5%;
 	}
 	.content-homepage .blog .img-wrapper {
 		width: 30%;
-		padding-top: 30px;
+		padding-top: 50px;
 		float: left;
 	}	
 }
