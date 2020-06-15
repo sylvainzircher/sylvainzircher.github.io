@@ -164,4 +164,9 @@
 	.content-homepage h1 {
 		font-size: $mobileTitleFontSize;
 	}
+	.content-homepage .more {
+		width: 220px;
+		height: 100px;
+		font-size: $mobileParagraphFontSize;
+	}
 }
