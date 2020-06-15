@@ -156,3 +156,12 @@
 	color: white;
 	font-size: 16px;
 }
+
+@media only screen and (max-device-width: 480px) {
+	.content-homepage {
+		width: $websiteMobileWidth;
+	}	
+	.content-homepage h1 {
+		font-size: $mobileTitleFontSize;
+	}
+}
