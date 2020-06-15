@@ -195,10 +195,15 @@
 		width: 40%;
 		height: 200px;		
 	}
+	.content-homepage .resource .categorie-wrapper {
+		width: 150px;
+		height: 3vw;
+		line-height: 3vw;
+	}
 	.content-homepage .resource .category {
-		font-size: $mobileParagraphFontSize;
+		font-size: 2vw;
 	}
 	.content-homepage .resource .title {
-		font-size: $mobileParagraphFontSize;
+		font-size: 3vw;
 	}	
 }
