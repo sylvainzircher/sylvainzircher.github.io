@@ -165,10 +165,19 @@
 		font-size: $mobileTitleFontSize;
 	}
 	.content-homepage .more {
-		width: 220px;
-		height: 100px;
+		width: $websiteMobileWidth;
+		height: 200px;
 		font-size: $mobileParagraphFontSize;
-		line-height: 100px;
+		line-height: 200px;
 		vertical-align: middle;
+	}
+	.content-homepage .blog .img-wrapper {
+		width: 300px;
+		height: 150px;
+		padding-top: 30px;
+	}	
+	.content-homepage .blog .title {
+		color: $textColor;
+		font-size: $mobileParagraphFontSize;
 	}
 }
