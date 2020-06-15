@@ -39,4 +39,7 @@
   .statement h1 {
     font-size: $mobileTitleFontSize;
   }
+  .statementWrapper {
+  	width: $websiteMobileWidth;
+  }
 }
