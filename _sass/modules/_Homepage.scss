@@ -173,7 +173,7 @@
 	}
 	.content-homepage .blog {
 		width: $websiteMobileWidth;
-		height: 300px;
+		height: 250px;
 		padding-top: 30px;
 	}	
 	.content-homepage .blog .title {
@@ -188,6 +188,17 @@
 	.content-homepage .blog .img-wrapper {
 		width: 30%;
 		padding-top: 50px;
+		height: 200px;
 		float: left;
+	}
+	.content-homepage .resource {
+		width: 40%;
+		height: 200px;		
+	}
+	.content-homepage .resource .category {
+		font-size: $mobileParagraphFontSize;
+	}
+	.content-homepage .resource .title {
+		font-size: $mobileParagraphFontSize;
 	}	
 }
