@@ -148,12 +148,12 @@
 		font-size: $mobileTitleFontSize;
 	}
 
-	.content-homepage .blog {
+	.content-resources .blog {
 		width: $websiteMobileWidth;
 		height: 250px;
 		padding-top: 30px;
 	}	
-	.content-homepage .blog .title {
+	.content-resources .blog .title {
 		color: $textColor;
 		font-size: $mobileParagraphFontSize;
 		width: 60%;
@@ -162,7 +162,7 @@
 		padding-right: 5%;
 		padding-left: 5%;
 	}
-	.content-homepage .blog .img-wrapper {
+	.content-resources .blog .img-wrapper {
 		width: 30%;
 		margin-top: 25px;
 		margin-bottom: 25px;
@@ -170,26 +170,26 @@
 		padding: 0;
 		float: left;
 	}
-	.content-homepage .resource {
+	.content-resources .resource {
 		width: 42%;
 		height: 200px;		
 	}
-	.content-homepage .resource .categorie-wrapper {
+	.content-resources .resource .categorie-wrapper {
 		width: 150px;
 	}
-	.content-homepage .resource .category {
+	.content-resources .resource .category {
 		font-size: 2vw;
 		height: 3vw;
 		line-height: 3vw;
 		font-weight: bold;
 	}
-	.content-homepage .resource .title-wrapper {
+	.content-resources .resource .title-wrapper {
 		margin-top: 25px;
 		height: 100px;
 		line-height: 100px;
 		vertical-align: middle;
 	}
-	.content-homepage .resource .title {
+	.content-resources .resource .title {
 		font-size: 2.5vw;
 	}	
 }
