@@ -96,12 +96,12 @@
   }
   .blogList .title {
     font-size: $mobileTitleFontSize;
-    width: 60%;
+    width: $websiteMobileWidth;
   }
   .blogList .authorNdate {
-    font-size: 3vw;
+    font-size: $mobileBlogCategoryFontSize;
   }
   .blogList .category {
-    font-size: 3vw; 
+    font-size: $mobileBlogCategoryFontSize; 
   }
 }
