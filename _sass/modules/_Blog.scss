@@ -73,7 +73,7 @@
   line-height: 100%;
 }
 
-@media only screen and (max-width: 840px)
+@media only screen and (max-width: 840px) {
   .blogList ul li a {
     width: 80%;
     margin: 0 auto;
@@ -97,5 +97,11 @@
   .blogList .title {
     font-size: $mobileTitleFontSize;
     width: 60%;
+  }
+  .blogList .authorNdate {
+    font-size: 3vw;
+  }
+  .blogList .category {
+    font-size: 3vw; 
   }
 }
