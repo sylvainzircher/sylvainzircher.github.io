@@ -139,3 +139,57 @@
 	color: white;
 	font-size: 16px;
 }
+
+@media only screen and (max-device-width: 480px) {
+	.content-resources  {
+		width: $websiteMobileWidth;
+	}	
+	.content-resources p {
+		font-size: $mobileTitleFontSize;
+	}
+
+	.content-homepage .blog {
+		width: $websiteMobileWidth;
+		height: 250px;
+		padding-top: 30px;
+	}	
+	.content-homepage .blog .title {
+		color: $textColor;
+		font-size: $mobileParagraphFontSize;
+		width: 60%;
+		float: right;
+		padding-top: 50px;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.content-homepage .blog .img-wrapper {
+		width: 30%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		height: 200px;
+		padding: 0;
+		float: left;
+	}
+	.content-homepage .resource {
+		width: 45%;
+		height: 200px;		
+	}
+	.content-homepage .resource .categorie-wrapper {
+		width: 150px;
+	}
+	.content-homepage .resource .category {
+		font-size: 2vw;
+		height: 3vw;
+		line-height: 3vw;
+		font-weight: bold;
+	}
+	.content-homepage .resource .title-wrapper {
+		margin-top: 25px;
+		height: 100px;
+		line-height: 100px;
+		vertical-align: middle;
+	}
+	.content-homepage .resource .title {
+		font-size: 2.5vw;
+	}	
+}
