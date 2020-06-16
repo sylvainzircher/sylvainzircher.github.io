@@ -95,7 +95,8 @@
     width: $websiteMobileWidth;
   }
   .blogList .title {
-    font-size: $mobileTitleFontSize;
+    font-size: $mobileParagraphFontSize;
+    line-height: $mobileTitleFontSize;
     width: $websiteMobileWidth;
   }
   .blogList .authorNdate {
