@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 840px){
   .post-header, .post {
     width: $websiteMobileWidth;
     margin: 0 auto;
@@ -137,4 +137,26 @@ th, td {
   line-height: 36px; 
   text-align: justify;
   margin-bottom: 25px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .post-header, .post {
+    width: $websiteMobileWidth;
+    margin: 0 auto;
+  }
+  .post-header h1 {
+    font-size: $mobileTitleFontSize;
+  }
+  .post h3 {
+    font-size: $mobileParagraphFontSize;
+    font-weight: bold;
+    margin-bottom: $mobileParagraphMargin;
+  }
+  .post p {
+    font-size: $mobileBlogParagraphFontSize;
+    line-height: $mobileBlogLineHeight;    
+  }
+  .post img {
+    margin-bottom: $mobileParagraphMargin;    
+  }
 }
