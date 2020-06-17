@@ -184,7 +184,7 @@ blockquote .before {
   margin-bottom: 24px;       
 }
 
-@media only screen and (max-width: 840px) {}
+@media only screen and (max-width: 840px) {
   .article-header .text {
     width: $websiteMobileWidth;
   }
