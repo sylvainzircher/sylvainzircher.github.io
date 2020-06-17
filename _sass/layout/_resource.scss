@@ -167,4 +167,12 @@ th, td {
     line-height: $mobileBlogLineHeight;
     height: $mobileBlogLineHeight;
   }
+  table {
+    margin-bottom: $mobileParagraphMargin;
+    margin-top: $mobileParagraphMargin;    
+  }
+  .language-python, .language-r, .language-plaintext, .language-javascript {
+    margin-bottom: $mobileParagraphMargin;
+    margin-top: $mobileParagraphMargin;    
+  }
 }
