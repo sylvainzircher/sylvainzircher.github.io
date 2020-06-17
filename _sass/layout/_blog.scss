@@ -328,8 +328,8 @@ blockquote .before {
     font-size: $mobileParagraphFontSize;
   }
   .article p { 
-    font-size: $mobileParagraphFontSize;
-    line-height: $mobileTitleFontSize;
+    font-size: $mobileBlogParagraphFontSize;
+    line-height: $mobileParagraphFontSize;
   }
   .author {
     font-size: $mobileBlogCategoryFontSize;
