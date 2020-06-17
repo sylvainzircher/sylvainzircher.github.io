@@ -151,12 +151,20 @@ th, td {
     font-size: $mobileParagraphFontSize;
     font-weight: bold;
     margin-bottom: $mobileParagraphMargin;
+    margin-top: $mobileParagraphMargin;
   }
   .post p {
     font-size: $mobileBlogParagraphFontSize;
     line-height: $mobileBlogLineHeight;    
   }
   .post img {
-    margin-bottom: $mobileParagraphMargin;    
+    margin-bottom: $mobileParagraphMargin; 
+    margin-top: $mobileParagraphMargin;    
+  }
+  .post-header .tag {
+    width: 200px;
+    font-size: $mobileBlogParagraphFontSize;
+    line-height: $mobileBlogLineHeight;
+    height: $mobileBlogLineHeight;
   }
 }
