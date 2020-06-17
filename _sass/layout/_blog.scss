@@ -319,7 +319,7 @@ blockquote .before {
   }
   .article .intro {
     font-size: $mobileParagraphFontSize;
-    line-height: $mobileTitleFontSize;
+    line-height: $mobileBlogLineHeight;
     font-weight: bold;
   }
   .article-header .text h1 {
@@ -330,7 +330,7 @@ blockquote .before {
   }
   .article p { 
     font-size: $mobileBlogParagraphFontSize;
-    line-height: $mobileParagraphFontSize;
+    line-height: $mobileBlogLineHeight;
   }
   .author {
     font-size: $mobileBlogCategoryFontSize;
