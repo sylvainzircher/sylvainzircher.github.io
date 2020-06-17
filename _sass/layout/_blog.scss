@@ -345,4 +345,11 @@ blockquote .before {
     font-weight: bold;
     margin-bottom: $mobileParagraphMargin;
   }
+  .article a {
+    font-size: $mobileBlogParagraphFontSize;
+    line-height: $mobileBlogLineHeight;    
+  }
+  img {
+    margin-bottom: $mobileParagraphMargin;    
+  }
 }
