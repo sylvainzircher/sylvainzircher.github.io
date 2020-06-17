@@ -311,6 +311,9 @@ blockquote .before {
 }
 
 @media only screen and (max-device-width: 480px) {
+  .article {
+    width: $websiteMobileWidth;
+  }
   .article-header .text {
     width: $websiteMobileWidth;
   }
@@ -324,14 +327,10 @@ blockquote .before {
   .article-header .text h2 {
     font-size: $mobileParagraphFontSize;
   }
-}
-
-/**
-@media only screen and (max-width: 600px) {
-  img {
-    margin-top: 30px;
-    width: 100%;
-    margin: 0 auto;
+  .author {
+    font-size: $mobileBlogCategoryFontSize;
+  }
+  .category {
+    font-size: $mobileBlogCategoryFontSize;
   }
 }
-**/
