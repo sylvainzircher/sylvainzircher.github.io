@@ -319,13 +319,17 @@ blockquote .before {
   }
   .article .intro {
     font-size: $mobileParagraphFontSize;
-    line-height: 4.5vw;
+    line-height: $mobileTitleFontSize;
   }
   .article-header .text h1 {
     font-size: $mobileTitleFontSize;
   }
   .article-header .text h2 {
     font-size: $mobileParagraphFontSize;
+  }
+  .article p { 
+    font-size: $mobileParagraphFontSize;
+    line-height: $mobileTitleFontSize;
   }
   .author {
     font-size: $mobileBlogCategoryFontSize;
