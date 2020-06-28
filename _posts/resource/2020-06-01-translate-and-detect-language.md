@@ -25,7 +25,7 @@ Here is more, you can use _GOOGLETRANSLATE_ in collaboration with the _DETECTLAN
 
 ![png]({{ 'assets/img/googlesheets/img-googletranslate/detectlanguage.png' | relative_url }})
 
-There is an even simpler way to do it! The below function will yield the same result as the two previous example. _GOOGLETRANSLATE_ is very powerfull and does not even need your input when it comes to identifying the language of the original text:
+There is an even simpler way to do it! The below function will yield the same result as the two previous examples. _GOOGLETRANSLATE_ is very powerful and does not even need your input when it comes to identifying the language used in the original text:
 
 ```
 =googletranslate(A1)
