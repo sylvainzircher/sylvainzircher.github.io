@@ -17,7 +17,7 @@ In the following example we will translate the content in cell A1 from French to
 
 ![png]({{ 'assets/img/googlesheets/img-googletranslate/googletranslate.png' | relative_url }})
 
-Here is more, you can use _GOOGLETRANSLATE_ in collaboration with the _DETECTLANGUAGE_ function, so you can let Google Sheets figure out the target language:
+Here is more, you can use _GOOGLETRANSLATE_ in collaboration with the _DETECTLANGUAGE_ function, so you can let Google Sheets figure out the original language:
 
 ```
 =googletranslate(A1,detectlanguage(A1),"en")
