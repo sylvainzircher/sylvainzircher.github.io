@@ -86,7 +86,7 @@ plt.show()
 
 ![png]({{ 'assets/img/articles/CLT/exponential.png' | relative_url }})
 
-With a sample size of 15 we are quite close to the ideal bell curve represented in dashed red lines. However it does take a lot more samples, maybe somewhere between 30 and 200 to obtain a probability distribution that is more symetrical and Gaussian.
+With a sample size of 15 we are quite close to the ideal bell curve represented in dashed red lines. However it does take a lot more samples, maybe somewhere between 30 and 200 to obtain a probability distribution that is more symmetrical and Gaussian.
 
 Now let’s look at a binomial probability distribution that can simulate a toss coin or a conversion rate (traffic landing on a web page and clicking (or not) on a CTA for example).
 
