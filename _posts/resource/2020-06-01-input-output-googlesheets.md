@@ -6,7 +6,7 @@ date: 2020-04-03
 permalink: /resources/:categories/:title:output_ext
 ---
 
-This post covers one of the most basic aspect of interacting with a Google Sheets through App Script which is accessing some data contained in a cell within a sheet and writing data to a cell. 
+This post covers one of the most basic aspects of interacting with a Google Sheets through App Script which is accessing some data contained in a cell within a sheet and writing data to a cell. 
 
 
 ### Let's access the content of a cell using App Script

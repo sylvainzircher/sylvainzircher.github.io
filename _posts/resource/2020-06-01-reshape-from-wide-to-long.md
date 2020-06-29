@@ -78,7 +78,7 @@ df
 
 ### Let's transform it into a long format
 
-We will be using the melt() function which is available in the pandas library. We pass on two parameters. The first one being _id_vars_ - which is the column(s) to use as identifier; in our case Channel. The second parameter is _value_vars_ - column(s) to unpivot; in our case, these are the two columns that include the metrics we want to group together: Avg Duration and Conversions.
+We will be using the melt() function which is available in the pandas library. We pass on two parameters. The first one being _id_vars_ - which is the column(s) to use as an identifier; in our case Channel. The second parameter is _value_vars_ - column(s) to unpivot; in our case, these are the two columns that include the metrics we want to group together: Avg Duration and Conversions.
 
 
 ```python
