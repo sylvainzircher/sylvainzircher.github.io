@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Query function"
+title: "The Query Function or How to Use SQL Within Google Sheets"
 categories: Sheets
 date: 2020-05-02
 permalink: /resources/:categories/:title:output_ext

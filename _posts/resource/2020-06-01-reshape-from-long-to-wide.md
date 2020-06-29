@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Reshape a DataFrame from long to wide format"
+title: "Long to Wide Format in Python"
 categories: python
 date: 2020-02-16
 permalink: /resources/:categories/:title:output_ext
