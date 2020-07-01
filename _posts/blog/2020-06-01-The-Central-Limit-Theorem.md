@@ -1,7 +1,7 @@
 ---
 layout: "blog"
 title: "About the Central Limit Theorem"
-slug: About-the-Central-Limit-Theorem
+slug: central-limit-theorem
 subtitle: "Definition and Demonstration using Python"
 date: 2020-04-07
 author: "Sylvain Zircher"

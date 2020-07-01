@@ -1,6 +1,7 @@
 ---
 layout: "resource"
 title: "GoogleSheets I/O using App Script"
+slug: googlesheets-input-output
 categories: Apps-Script
 date: 2020-04-03
 permalink: /resources/:categories/:title:output_ext
