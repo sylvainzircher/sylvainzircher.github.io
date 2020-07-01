@@ -1,6 +1,7 @@
 ---
 layout: "resource"
 title: "Long to Wide Format in Python"
+slug: python-long-to-wide
 categories: python
 date: 2020-02-16
 permalink: /resources/:categories/:title:output_ext

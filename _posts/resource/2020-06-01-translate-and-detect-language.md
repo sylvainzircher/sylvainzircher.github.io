@@ -1,6 +1,7 @@
 ---
 layout: "resource"
 title: "Fast and Easy Translations Using Google Sheets"
+slug: translation-in-googlesheets
 categories: Sheets
 date: 2020-03-28
 permalink: /resources/:categories/:title:output_ext
