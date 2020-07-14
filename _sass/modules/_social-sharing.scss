@@ -1,0 +1,57 @@
+/**
+ * Social Sharing Bar
+ */
+
+.share-bar {
+  width: $blogDesktopWidth;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: -40px;
+}
+
+.share-bar h4 {
+  color: $textColor;
+  font-weight: 300;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.share-buttons {
+	display: inline-block;
+}
+
+.share-buttons a {
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+  	text-align: center;
+	width: 25px;
+  	height: 25px;
+	line-height: 25px;  	
+  	display: inline-block;
+  	border-radius: 50%;
+  	font-size: 16px;  	
+  	border-radius: 50%;
+	opacity: 0.75;
+	transition: opacity 0.15s linear;
+}
+
+.share-buttons a:hover {
+	opacity: 1;
+}
+
+.facebook {
+ 	background: #3b5998;
+}
+
+.twitter {
+  	background: #55acee;
+}
+
+.email {
+  	background: $headerBackground;
+}
+
+.linkedin {
+  	background: #0077b5;
+}

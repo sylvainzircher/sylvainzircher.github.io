@@ -3,7 +3,7 @@
 		<head>
 			<!-- Meta Tag -->
 			<meta name="title" content="Sylvain Zircher - Data, Insights & Automation">
-			<meta name="description" content="{{ page.title }}" />			
+			<meta name="description" content="{{ page.title }}" />
 			<!-- Global site tag (gtag.js) - Google Analytics -->
 			<script async src="https://www.googletagmanager.com/gtag/js?id=G-TDZZP0KQGC"></script>
 			<script>
@@ -25,7 +25,8 @@
 			<!-- JS -->
 			<script src="{{ '/assets/js/MobileNav.js' | relative_url }}"></script>
 			<!-- Meta Tag -->
-			<meta name=”viewport” content=”width=device-width, initial-scale=1″>			
+			<meta name=”viewport” content=”width=device-width, initial-scale=1″>
+			<head>
 		</head>
 
 		<body>
@@ -42,7 +43,8 @@
 					{% else %}
 						<div class="tag" style="background-color:#F9D342;color:white;">{{ page.categories }}</div>
 					{% endif %}
-				</section>	
+				</section>
+				{% include social-sharing.html %}
 				<section class="post">
 					{{ content }}
 				</section>
