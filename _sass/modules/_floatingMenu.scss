@@ -10,9 +10,9 @@ div .fa-reorder {
   display: none;
 }
 
-@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 840px) {
 
-   div .nav-mobile {
+  div .nav-mobile {
     display: block; 
   }
 
@@ -21,7 +21,7 @@ div .fa-reorder {
   }
 
   div .fa-reorder {
-    font-size: 20px;
+    font-size: $mobileTitleFontSize;
     vertical-align: middle;
     text-align: center;
     height: 100%;
@@ -56,21 +56,12 @@ div .fa-reorder {
     color: $headerText;
     display: block; 
     font-weight: 300;  
-    font-size: 16px;
+    font-size: 20px;
+    margin-top: $mobileMenuMargin;
+    margin-bottom: $mobileMenuMargin;    
   }
 
   #nav-list a:hover {
     color: $brand;
   }  
-}
-
-@media only screen and (max-device-width: 480px) {
-  div .fa-reorder {
-    font-size: $mobileTitleFontSize;
-  }
-  #nav-list a {
-    margin-top: $mobileMenuMargin;
-    margin-bottom: $mobileMenuMargin;
-    font-size: $mobileParagraphFontSize;      
-  }
 }
