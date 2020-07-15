@@ -22,12 +22,15 @@ $websiteDesktopWidth: 80%;
 $websiteMobileWidth: 90%;
 $blogDesktopWidth: 700px;
 
-$mobileTitleFontSize: 5vw;
+/* Mobile */
+$mobileTitleFontSize: 6vw;
 $mobileParagraphFontSize: 4vw;
 $mobileBlogParagraphFontSize: 3vw;
 $mobileParagraphMargin: 10%;
 $mobileFooterFontSize: 2vw;
 $mobileBlogCategoryFontSize: 2vw;
 $mobileBlogLineHeight: 6vw;
-
 $mobileMenuMargin: 5%;
+
+/* Tablet */
+$tabletTitleFontSize: 4vw;

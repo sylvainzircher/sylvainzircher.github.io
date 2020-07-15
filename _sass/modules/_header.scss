@@ -64,7 +64,7 @@
     margin: 0 auto;
   }
   .site-header-content-wrapper h1 {
-    font-size: 4vw;
+    font-size: $tabletTitleFontSize;
   }
   .site-header {  
     padding-top: 50px;
@@ -74,6 +74,6 @@
 
 @media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
   .site-header-content-wrapper h1 {
-    font-size: 6vw;
+    font-size: $mobileTitleFontSize;
   }
 }
