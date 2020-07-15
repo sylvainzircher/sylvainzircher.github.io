@@ -139,7 +139,7 @@ th, td {
   margin-bottom: 25px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
   .post-header, .post {
     width: $websiteMobileWidth;
     margin: 0 auto;
@@ -169,10 +169,12 @@ th, td {
   }
   table {
     margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin;    
+    margin-top: $mobileParagraphMargin;
+    font-size: 1.2em;
   }
   .language-python, .language-r, .language-plaintext, .language-javascript {
     margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin;    
+    margin-top: $mobileParagraphMargin;
+    font-size: $mobileBlogParagraphFontSize;   
   }
 }
