@@ -58,7 +58,7 @@
   float: right;
 }
 
-@media only screen and (max-width: 840px), only screen and (max-device-width: 480px) {
+@media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
   .site-header-content-wrapper {
     width: $websiteMobileWidth;
     margin: 0 auto;
@@ -70,4 +70,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }  
+}
+
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  .site-header-content-wrapper h1 {
+    font-size: 6vw;
+  }
 }
