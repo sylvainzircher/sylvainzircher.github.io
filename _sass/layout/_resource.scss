@@ -170,7 +170,7 @@ th, td {
   table {
     margin-bottom: $mobileParagraphMargin;
     margin-top: $mobileParagraphMargin;
-    font-size: 1.2em;
+    font-size: $mobileBlogParagraphFontSize;
   }
   .language-python, .language-r, .language-plaintext, .language-javascript {
     margin-bottom: $mobileParagraphMargin;
