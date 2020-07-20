@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "How to loop through a range using Apps-Script"
+title: "How to Loop Through a Range Using Apps-Script"
 slug: How-to-loop-through-a-range-in-Apps-Script
 categories: Apps-Script
 date: 2020-07-20
