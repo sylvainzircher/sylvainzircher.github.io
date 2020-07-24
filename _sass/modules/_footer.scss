@@ -2,7 +2,7 @@
  * Site Footer
  */
 
- .site-footer { 
+.site-footer { 
   background-color: $footerBackground;  
   width: 100%;
 }
@@ -20,10 +20,10 @@
 }
 
 .site-footer-content-wrapper p {
-  font-size: 14px;
+  font-size: $mobileFooterFontSize;
   color: $footerText;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin: 0;
 }
 

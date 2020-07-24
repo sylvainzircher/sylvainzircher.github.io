@@ -21,7 +21,7 @@ div .fa-reorder {
   }
 
   div .fa-reorder {
-    font-size: 4vw;
+    font-size: $headerTitleFontSize;
     vertical-align: middle;
     text-align: center;
     height: 100%;
@@ -48,17 +48,17 @@ div .fa-reorder {
   }
 
   #nav-list a {
-    line-height: 40px; 
-    height: 40px;  
+    line-height: $headerMenuFontSize; 
+    height: $headerMenuFontSize;
     width: 200px;  
     text-decoration: none;
     background-color: $headerBackground; 
     color: $headerText;
     display: block; 
     font-weight: 300;  
-    font-size: 3vw;
-    margin-bottom: 3vw;
-    margin-top: 3vw;
+    font-size: $headerMenuFontSize;
+    margin-bottom: $headerMargin;
+    margin-top: $headerMargin;
   }
 
   #nav-list a:hover {
@@ -66,13 +66,13 @@ div .fa-reorder {
   }  
 }
 
-@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+@media only screen and (max-device-width: 840px) {
   
-  div .fa-reorder {font-size: 6vw;}
+  div .fa-reorder {font-size: $mobileTitleFontSize;}
 
   #nav-list a {
-    font-size: 5vw;
-    margin-bottom: 8vw;
-    margin-top: 8vw;     
+    font-size: $mobileTitleFontSize;
+    margin-bottom: $headerMargin;
+    margin-top: $headerMargin;
   }
 }

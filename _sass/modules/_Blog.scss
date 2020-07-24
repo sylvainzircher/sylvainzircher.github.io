@@ -96,7 +96,7 @@
   }
   .blogList .title {
     font-size: $mobileParagraphFontSize;
-    line-height: $mobileTitleFontSize;
+    line-height: 1.6em;
     width: $websiteMobileWidth;
   }
   .blogList .authorNdate {
@@ -105,5 +105,9 @@
   .blogList .category {
     font-size: $mobileBlogCategoryFontSize; 
     margin-top: 5%;
+  }
+
+  .blogList li {
+    height: 400px;
   }
 }

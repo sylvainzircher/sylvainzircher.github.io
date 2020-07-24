@@ -22,15 +22,49 @@ $websiteDesktopWidth: 80%;
 $websiteMobileWidth: 90%;
 $blogDesktopWidth: 700px;
 
-/* Mobile */
-$mobileTitleFontSize: 6vw;
-$mobileParagraphFontSize: 4vw;
-$mobileBlogParagraphFontSize: 3vw;
-$mobileParagraphMargin: 10%;
-$mobileFooterFontSize: 2vw;
-$mobileBlogCategoryFontSize: 2vw;
-$mobileBlogLineHeight: 6vw;
-$mobileMenuMargin: 5%;
+/* Desktop */
+$desktopTitleFontSize: 2em;
+$desktopTitleMargin: 2em;
+$desktopParagraphFontSize: 1.2em;
+$desktopParagraphLineHeight: 2em;
+$desktopParagraphMargin: 3em;
 
-/* Tablet */
-$tabletTitleFontSize: 4vw;
+$headerTitleFontSize: 1.6em;
+$headerMenuFontSize: 1.2em;
+$headerMargin: 1.4em;
+
+/* Ressources Index */
+$categoryRessources: 1em;
+$titleRessources: 1em;
+
+/* Responsive */
+$responsiveMargin: 3em;
+
+/* Mobile */
+$mobileTitleFontSize: 4em;
+$mobileTitleMargin: 2em;
+$mobileParagraphFontSize: 3em;
+$mobileParagraphMargin: 3em;
+$mobileFooterFontSize: 0.6em;
+
+$mobileResourcesParagraphFontSize: 2em;
+$mobileResourcesCategoryFontSize: 2em;
+$mobileResourcesLineHeight: 3em;
+
+$mobileBlogParagraphFontSize: 2em;
+$mobileBlogCategoryFontSize: 1.2em;
+$mobileBlogLineHeight: 3em;
+
+$mobileMenuMargin: 5em;
+$mobileTagHeight: 2em;
+$mobileTagWidth: 6em; 
+
+/* Social Sharing */
+$sharingHeightResponsive: 4em;
+$sharingWidthResponsive: 4em;
+$sharingHeightMobile: 3em;
+$sharingWidthMobile: 3em;
+$sharingFontMobile: 3em;
+$sharingMarginMobile: 1em;
+
+

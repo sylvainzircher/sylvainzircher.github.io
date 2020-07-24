@@ -17,17 +17,17 @@
 .aboutme h1 {
 	color: black;
 	font-weight: 100; 
-  font-size: 2em;
-  margin-top: 2em;
+  font-size: $desktopTitleFontSize;
+  margin-top: $desktopTitleMargin;
 	font-family: $font;
 }
 
 .aboutme p {
 	font-weight: 100;
-  font-size: 1.2em;
-  line-height: 1.8em;
-  margin-top: 3em;
-  margin-bottom: 3em;
+  font-size: $desktopParagraphFontSize;
+  line-height: $desktopParagraphLineHeight;
+  margin-top: $desktopParagraphMargin;
+  margin-bottom: $desktopParagraphMargin;
   text-align: justify;
   color: $textColor;	
 }
@@ -39,10 +39,10 @@
 
 @media only screen and (max-width: 840px) {
   .aboutme {
-  	width: $websiteDesktopWidth;
+  	width: $websiteMobileWidth;
     margin: 0 auto;
-    margin-top: 3em;
-    margin-bottom: 3em;    
+    margin-top: $responsiveMargin;
+    margin-bottom: $responsiveMargin;    
   }
 
   .aboutme {
@@ -50,8 +50,8 @@
   }
 
   .aboutme p {
-    margin-bottom: 3em;
-    margin-top: 3em; 
+    margin-bottom: $responsiveMargin;
+    margin-top: $responsiveMargin; 
   }
 }
 
@@ -60,8 +60,8 @@
   .aboutme {
     width: $websiteMobileWidth;
     margin: 0 auto;
-    margin-top: 2em;
-    margin-bottom: 2em;     
+    margin-top: $mobileTitleMargin;
+    margin-bottom: $mobileTitleMargin;
   }
 
   .aboutme {
@@ -69,18 +69,18 @@
   }
 
   .aboutme p {
-    margin-bottom: 2em;
-    margin-top: 2em;
-    font-size: 3em;  
+    margin-bottom: $mobileParagraphMargin;
+    margin-top: $mobileParagraphMargin;
+    font-size: $mobileParagraphFontSize;
   } 
 
   .aboutme h1 {
     color: black;
     font-weight: 100; 
-    font-size: 4em;
+    font-size: $mobileTitleFontSize;
     font-family: $font;
-    margin-bottom: 2em;
-    margin-top: 2em;    
+    margin-bottom: $mobileTitleMargin;
+    margin-top: $mobileTitleMargin;  
   }
 
 }

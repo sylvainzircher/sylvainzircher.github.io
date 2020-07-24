@@ -9,15 +9,15 @@
 	width: $websiteDesktopWidth;
 	margin: 0 auto;
 	height: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;	
+	margin-top: $desktopParagraphMargin;
+	margin-bottom: $desktopParagraphMargin;
 }
 
 .content-resources p {
-	font-size: 22px;
+	font-size: $desktopParagraphFontSize;
 	font-weight: 100;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: $desktopParagraphMargin;
+	margin-bottom: $desktopParagraphMargin;
 }
 
 .code-section {
@@ -36,8 +36,8 @@
 .content-resources h1 {
 	color: black;
   	font-weight: 100;
-  	font-size: 26px;
-  	margin-top: 25px;
+  	font-size: $desktopTitleFontSize;
+  	margin-top: $desktopTitleMargin;
 }
 
 .content-resources ul {
@@ -52,9 +52,9 @@
 	list-style-type: none;
 	text-align: center;
 	float: left;
-	margin-right: 25px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-right: $desktopTitleMargin;
+	margin-top: $desktopTitleMargin;
+	margin-bottom: $desktopTitleMargin;
 }
 
 .content-resources .resource {
@@ -63,9 +63,9 @@
 	height: 150px;
 	list-style-type: none;
 	float: left;
-	margin-right: 25px;
-	margin-top: 25px;
-	margin-bottom: 25px;			
+	margin-right: $desktopTitleMargin;
+	margin-top: $desktopTitleMargin;
+	margin-bottom: $desktopTitleMargin;			
 }
 
 .content-resources a {
@@ -85,7 +85,7 @@
 .content-resources .blog .img-wrapper {
 	width: 300px;
 	height: 150px;
-	padding-top: 30px;	
+	padding-top: $desktopTitleMargin;;
 }
 
 .content-resources .blog .img-wrapper img {
@@ -117,7 +117,7 @@
 
 .content-resources .blog .title {
 	color: $textColor;
-	font-size: 16px;
+	font-size: $titleRessources;
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: middle;
@@ -127,7 +127,7 @@
 
 .content-resources .resource .title {
 	color: $textColor;
-	font-size: 16px;
+	font-size: $titleRessources;
 	text-decoration: none;
 	display: inline-block;
 	vertical-align: middle;
@@ -137,15 +137,17 @@
 
 .content-resources .resource .category {
 	color: white;
-	font-size: 16px;
+	font-size: $categoryRessources;
 }
 
-@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 840px) {
 
 	.content-resources  {
 		width: $websiteMobileWidth;
+		margin: 0 auto;		
 	}	
 
+/*
 	.content-resources p {
 		font-size: $mobileTitleFontSize;
 	}
@@ -153,16 +155,22 @@
 	.content-resources .blog {
 		width: $websiteMobileWidth;
 		height: 250px;
-	}	
+		line-height: 250px;
+		vertical-align: middle;
+	}
+
 	.content-resources .blog .title {
 		color: $textColor;
-		font-size: $mobileParagraphFontSize;
+		vertical-align: middle;		
+		font-size: 2em;
 		width: 60%;
 		float: right;
-		padding-top: 50px;
+		height: 250px;
+		top: 50%;
 		padding-right: 5%;
 		padding-left: 5%;
 	}
+
 	.content-resources .blog .img-wrapper {
 		width: 30%;
 		margin-top: 25px;
@@ -171,26 +179,148 @@
 		padding: 0;
 		float: left;
 	}
+
 	.content-resources .resource {
 		width: 42%;
 		height: 200px;		
 	}
+
 	.content-resources .resource .categorie-wrapper {
 		width: 150px;
 	}
+
 	.content-resources .resource .category {
 		font-size: 2vw;
 		height: 3vw;
 		line-height: 3vw;
 		font-weight: bold;
 	}
+
 	.content-resources .resource .title-wrapper {
 		margin-top: 25px;
 		height: 100px;
 		line-height: 100px;
 		vertical-align: middle;
 	}
+
 	.content-resources .resource .title {
 		font-size: 2.5vw;
-	}	
+	}
+	*/	
 }
+
+@media only screen and (max-device-width: 840px) {
+	.content-resources  {
+		width: $websiteMobileWidth;
+		margin: 0 auto;		
+	}	
+
+	.content-resources p {
+		font-size: $mobileTitleFontSize;
+	}
+
+	.content-resources h1 {
+		font-size: $mobileTitleFontSize;
+		margin-top: $mobileTitleMargin;
+	}	
+
+	.content-resources .blog {
+		width: $websiteMobileWidth;
+		height: 250px;
+	}
+
+	.content-resources .blog .title-wrapper {
+		height: 250px;
+		line-height: 250px;
+		text-align: center;
+		vertical-align: middle;
+		display: block;
+	}
+
+	.content-resources .blog .title {
+		color: $textColor;		
+		font-size: 2em;
+		width: 60%;
+		float: right;
+		height: 250px;
+		padding-top: 75px;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+
+	.content-resources .blog .img-wrapper {
+		width: 30%;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		height: 200px;
+		padding: 0;
+		float: left;
+	}
+
+	.content-resources .resource {
+		width: 42%;
+		height: 200px;		
+	}
+
+	.content-resources .resource .categorie-wrapper {
+		width: 150px;
+	}
+
+	.content-resources .resource .category {
+		font-size: 2vw;
+		height: 3vw;
+		line-height: 3vw;
+		font-weight: bold;
+	}
+
+	.content-resources .resource .title-wrapper {
+		margin-top: 25px;
+		height: 100px;
+		line-height: 100px;
+		vertical-align: middle;
+	}
+
+	.content-resources .resource .title {
+		font-size: 2.5vw;
+	}
+/*
+	.content-resources  {
+		width: $websiteMobileWidth;
+		margin: 0 auto;		
+	}
+
+	.content-resources p {
+		font-size: $mobileTitleFontSize;
+	}
+
+	.content-resources h1 {
+		font-size: $mobileTitleFontSize;
+		margin-top: $mobileTitleMargin;
+	}
+
+	.content-resources .blog {
+		width: $websiteMobileWidth;
+	}
+
+	.content-resources .resource {
+		width: $websiteMobileWidth;
+		margin-bottom: none;	
+	}
+
+	.content-resources .resource .categorie-wrapper {
+		width: 25%;
+	}
+
+	.content-resources .resource .title {
+		font-size: 1.6em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	.content-resources .blog .title {
+		font-size: 1.6em;
+		float: right;
+		width: 60%;
+	}	
+*/
+} 

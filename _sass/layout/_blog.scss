@@ -42,6 +42,7 @@ img {
   text-align: center;
 }
 
+
  /**
  * Paragraph
  */
@@ -122,12 +123,6 @@ blockquote .before {
   font-size: 30px;  
   width: 100%;
   margin-bottom: 24px;       
-}
-
-@media only screen and (max-width: 840px) {
-  .article-header .text {
-    width: $websiteMobileWidth;
-  }
 }
 
 .author {
@@ -232,55 +227,90 @@ blockquote .before {
     width: $websiteMobileWidth;
     margin: 0 auto;
   }
+
+  .article-header .text {
+    width: $websiteMobileWidth;
+    margin: 0 auto;
+  }
+
   .img-to-resize {
     margin-top: 30px;
     width: 100%;
     margin: 0 auto;
-  } 
+  }
+
   .article .intro {
     margin-bottom: 30px;
   } 
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 840px) {
   .article {
     width: $websiteMobileWidth;
   }
+
+  .article-header {
+    height: auto;
+  }
+
   .article-header .text {
     width: $websiteMobileWidth;
+    top: 0%;
+    left: 0%;
+    transform: none;
+    margin: 0 auto;
+    display: block;
+    padding-top: 5em;
+    padding-bottom: 5em;
   }
+
+
+  .article-header .text h1 {
+    font-size: $mobileTitleFontSize;
+    line-height: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .article-header .text h2 {
+    font-size: $mobileParagraphFontSize;
+    line-height: 2em;
+    margin-bottom: 2em;
+    font-weight: normal;
+  }
+
   .article .intro {
     font-size: $mobileParagraphFontSize;
     line-height: $mobileBlogLineHeight;
     font-weight: bold;
     margin-bottom: $mobileParagraphMargin;
-  }
-  .article-header .text h1 {
-    font-size: $mobileTitleFontSize;
-  }
-  .article-header .text h2 {
-    font-size: $mobileParagraphFontSize;
-  }
+  }  
+
   .article p { 
     font-size: $mobileBlogParagraphFontSize;
     line-height: $mobileBlogLineHeight;
     margin-bottom: $mobileParagraphMargin;
   }
+
   .author {
     font-size: $mobileBlogCategoryFontSize;
   }
+
   .category {
     font-size: $mobileBlogCategoryFontSize;
   }
+
   .article h3{
     font-size: $mobileParagraphFontSize;
-    font-weight: bold;
+    margin-top: $mobileParagraphMargin;
     margin-bottom: $mobileParagraphMargin;
   }
+
   .article a {
     font-size: $mobileBlogParagraphFontSize;
     line-height: $mobileBlogLineHeight;    
   }
+
   img {
     margin-bottom: $mobileParagraphMargin;    
   }
