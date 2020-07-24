@@ -106,7 +106,6 @@ blockquote .before {
   left: 50%;
   transform: translate(-50%, -50%);
   width: $blogDesktopWidth;
-  display: inline-block;
 }  
 
 .article-header .text h1 {
@@ -260,8 +259,8 @@ blockquote .before {
     transform: none;
     margin: 0 auto;
     display: block;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 10em;
+    padding-bottom: 10em;
   }
 
 
@@ -280,16 +279,18 @@ blockquote .before {
   }
 
   .article .intro {
-    font-size: $mobileParagraphFontSize;
+    font-size: $mobileBlogParagraphFontSize;
     line-height: $mobileBlogLineHeight;
     font-weight: bold;
-    margin-bottom: $mobileParagraphMargin;
+    margin-top: $mobileParagraphMargin;
+    margin-bottom: 4em;
   }  
 
   .article p { 
     font-size: $mobileBlogParagraphFontSize;
     line-height: $mobileBlogLineHeight;
-    margin-bottom: $mobileParagraphMargin;
+    margin-top: 4em;
+    margin-bottom: 4em;
   }
 
   .author {
@@ -300,15 +301,16 @@ blockquote .before {
     font-size: $mobileBlogCategoryFontSize;
   }
 
-  .article h3{
+  .article h3 {
     font-size: $mobileParagraphFontSize;
+    line-height: 1.6em;
     margin-top: $mobileParagraphMargin;
     margin-bottom: $mobileParagraphMargin;
   }
 
   .article a {
-    font-size: $mobileBlogParagraphFontSize;
-    line-height: $mobileBlogLineHeight;    
+    font-size: 1.4em;
+    line-height: 1.6em;
   }
 
   img {
