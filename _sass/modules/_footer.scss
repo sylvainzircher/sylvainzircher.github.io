@@ -17,18 +17,11 @@
     width: $websiteMobileWidth;
     margin: 0 auto;
   }
-}
-
-.site-footer-content-wrapper p {
-  font-size: $mobileFooterFontSize;
-  color: $footerText;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  margin: 0;
-}
-
-@media only screen and (max-device-width: 480px) {
-.site-footer-content-wrapper p {
+  .site-footer-content-wrapper p {
     font-size: $mobileFooterFontSize;
+    color: $footerText;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
   }
 }
