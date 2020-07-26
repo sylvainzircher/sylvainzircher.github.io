@@ -292,10 +292,10 @@ blockquote .before {
     margin-bottom: $mobileParagraphMargin;
   }
 
-.article li li {
-  font-size: 3em;
-  line-height: 3em;
-}
+  .article li li {
+    font-size: 3em;
+    line-height: 3em;
+  }
 
   .author {
     font-size: $mobileBlogCategoryFontSize;
