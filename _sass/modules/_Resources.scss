@@ -157,9 +157,11 @@
 	.content-resources .resource {
 		width: 100%;
 		margin: 0 auto;
-		height: 250px;
+		height: 300px;
 		margin-top: 2em;
 		margin-bottom: 2em;
+		display: block;
+		float: none;
 	}
 
 	.content-resources p {
@@ -206,12 +208,12 @@
 
 	.content-resources .resource .category-wrapper {
 		width: 250px;
-		height: 4vw;
-		line-height: 4vw;
+		height: 50px;
+		line-height: 50px;
 	}
 
 	.content-resources .resource .category {
-		font-size: 3vw;
+		font-size: 3.5vw;
 	}
 
 	.content-resources .resource .title-wrapper {
