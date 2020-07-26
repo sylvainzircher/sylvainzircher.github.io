@@ -262,7 +262,6 @@ blockquote .before {
     padding-bottom: 10em;
   }
 
-
   .article-header .text h1 {
     font-size: 4em;
     line-height: 2em;
@@ -292,9 +291,16 @@ blockquote .before {
     margin-bottom: $mobileParagraphMargin;
   }
 
-  .article li li {
+  .article li {
     font-size: 3em;
-    line-height: 3em;
+    line-height: $desktopParagraphLineHeight;
+    margin-bottom: 2em;
+  }
+
+  .article li li {
+    font-size: 1em;
+    line-height: $desktopParagraphLineHeight;
+    margin-bottom: 1em; 
   }
 
   .author {
