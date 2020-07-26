@@ -51,7 +51,7 @@ img {
   color: $textColor; 
   font-size: 18px;
   line-height: 36px; 
-  text-align: justify;
+  text-align: left;
   margin-bottom: 25px;
 }
 
@@ -156,7 +156,7 @@ blockquote .before {
   color: $textColor; 
   font-size: 18px;
   line-height: 36px; 
-  text-align: justify;
+  text-align: left;
   margin-bottom: 25px;
 }
 
@@ -217,7 +217,7 @@ blockquote .before {
   font-family: $font; 
   color: #505050; 
   margin-bottom: 3%;
-  text-align: justify;
+  text-align: left;
 }
 
 @media only screen and (max-width: 840px) {
@@ -286,10 +286,10 @@ blockquote .before {
   }  
 
   .article p { 
-    font-size: 3em;
-    line-height: 3em;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    font-size: $mobileParagraphFontSize;
+    line-height: $desktopParagraphLineHeight;
+    margin-top: $mobileParagraphMargin;
+    margin-bottom: $mobileParagraphMargin;
   }
 
 .article li li {
