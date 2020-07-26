@@ -156,8 +156,10 @@ th, td {
   }
 
   .post p {
-    font-size: $mobileResourcesParagraphFontSize;
-    line-height: $mobileResourcesLineHeight;    
+    font-size: $mobileParagraphFontSize;
+    line-height: $desktopParagraphLineHeight;
+    margin-top: $mobileParagraphMargin;
+    margin-bottom: $mobileParagraphMargin;  
   }
 
   .post img {

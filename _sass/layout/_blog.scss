@@ -279,7 +279,7 @@ blockquote .before {
 
   .article .intro {
     font-size: 3em;
-    line-height: 3em;
+    line-height: $desktopParagraphLineHeight;
     font-weight: bold;
     margin-top: $mobileParagraphMargin;
     margin-bottom: 4em;
@@ -308,6 +308,7 @@ blockquote .before {
   .article h3 {
     font-size: $mobileParagraphFontSize;
     line-height: 1.6em;
+    font-weight: bold;
     margin-top: $mobileParagraphMargin;
     margin-bottom: $mobileParagraphMargin;
   }

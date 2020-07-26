@@ -163,10 +163,7 @@
 	}
 
 	.content-resources p {
-	    font-size: $mobileParagraphFontSize;
-	    line-height: $desktopParagraphLineHeight;
-	    margin-top: $mobileParagraphMargin;
-	    margin-bottom: $mobileParagraphMargin;
+		font-size: $mobileTitleFontSize;
 	}
 
 	.content-resources h1 {
