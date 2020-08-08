@@ -35,8 +35,6 @@ df
 ```
 
 
-
-
 <div style="overflow-x:auto;">
 
 <table border="1" class="dataframe">
