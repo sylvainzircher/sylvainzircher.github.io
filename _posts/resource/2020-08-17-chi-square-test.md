@@ -101,6 +101,6 @@ print("P-value: {:0.5f}".format(p_value_chi2))
     P-value: 0.37243
 
 
-We obtain the same result as with the _chi2 contingency_ function.
+We obtain the same result as with the _chi2 contingency_ function. Success!
 
 ### Et voila!
