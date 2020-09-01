@@ -40,6 +40,8 @@ img {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -325,6 +327,7 @@ blockquote .before {
   }
 
   img {
+    width: 100%;
     margin-bottom: $mobileParagraphMargin;    
   }
 }
