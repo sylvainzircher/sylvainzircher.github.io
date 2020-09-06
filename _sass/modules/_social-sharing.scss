@@ -61,6 +61,8 @@
 @media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
   .share-bar {
     width: $websiteDesktopWidth;
-    margin: 0 auto;  
+    margin: 0 auto;
+    margin-top: $desktopParagraphMargin;
+    margin-bottom: $desktopParagraphMargin;    
   }
 }
