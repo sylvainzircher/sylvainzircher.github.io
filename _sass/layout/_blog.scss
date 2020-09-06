@@ -107,7 +107,7 @@ blockquote .before {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: $websiteDesktopWidth;
+  width: $blogDesktopWidth;
 }  
 
 .article-header .text h1 {
@@ -143,7 +143,7 @@ blockquote .before {
 }
 
 .article {
-  width: $websiteDesktopWidth;
+  width: $blogDesktopWidth;
   margin: 0 auto;  
 }
 
@@ -220,4 +220,14 @@ blockquote .before {
   color: #505050; 
   margin-bottom: 3%;
   text-align: left;
+}
+
+@media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
+  .article-header .text {
+    width: $websiteDesktopWidth;
+  }  
+  .article {
+    width: $websiteDesktopWidth;
+    margin: 0 auto;  
+  }
 }

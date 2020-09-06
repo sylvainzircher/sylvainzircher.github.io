@@ -11,7 +11,7 @@
 }
 
 .post-header, .post {
-  width: $websiteDesktopWidth;
+  width: $blogDesktopWidth;
   margin: 0 auto;
 }
 
@@ -132,4 +132,11 @@ th, td {
   line-height: $desktopParagraphLineHeight; 
   text-align: left;
   margin-bottom: $desktopParagraphMargin;
+}
+
+@media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
+  .post-header, .post {
+    width: $websiteDesktopWidth;
+    margin: 0 auto;  
+  }
 }
