@@ -6,16 +6,15 @@ categories: python
 date: 2020-09-06
 permalink: /resources/:categories/:title:output_ext
 ---
-Imagine you have a form builder tool and you are collecting the data related to how your users are creating their forms for their website. The dataset at your disposal might be denormalized and contains the form id, for every id there could be one or several fields created (name, address ...) and the type of the field (integer, string ...):<br/><br/>
+Imagine you have a form builder tool and you are collecting the data related to how your users are creating their forms for their website. The dataset at your disposal might be denormalized and contains the form id, for every id there could be one or several fields created (name, address ...) and the type of the field (integer, string ...):
 <picture>
-    <img src="{{ 'assets/img/python/python-norm-dataset/Original-data.png' | relative_url  }}" alt="Wide to Long Format"/>
+    <img src="{{ 'assets/img/python/python-norm-dataset/Original-data.png' | relative_url  }}" alt="Normalizing a Dataframe"/>
 </picture>
 
 
-What we want to achieve is have a row per form. In other words we need to group all the field names and field types into one array and obtain a dataset that would look like the following:<br/><br/>
-
+What we want to achieve is have a row per form. In other words we need to group all the field names and field types into one array and obtain a dataset that would look like the following:
 <picture>
-    <img src="{{ 'assets/img/python/python-norm-dataset/Final-data.png' | relative_url  }}" alt="Wide to Long Format"/>
+    <img src="{{ 'assets/img/python/python-norm-dataset/Final-data.png' | relative_url  }}" alt="Normalizing a Dataframe"/>
 </picture>
 
 
