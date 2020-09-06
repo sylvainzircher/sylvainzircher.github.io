@@ -1,6 +1,7 @@
 /**
  * Content Homepage
  */
+
  body {
  	background-color: $contentBackground;
  }
@@ -155,74 +156,4 @@
 .content-homepage .resource .category {
 	color: white;
 	font-size: 16px;
-}
-
-@media only screen and (max-device-width: 480px) {
-	.content-homepage {
-		width: $websiteMobileWidth;
-	}	
-	.content-homepage h1 {
-		font-size: $mobileTitleFontSize;
-		margin-top: $mobileTitleMargin;		
-	}
-	.content-homepage .more {
-		width: 220px;
-		height: 100px;
-		font-size: $mobileParagraphFontSize;
-		line-height: 100px;
-		vertical-align: middle;
-		margin-bottom: $mobileTitleMargin;
-	}
-	.content-homepage .blog {
-		width: 100%;
-		height: 250px;
-	}	
-	.content-homepage .blog .title {
-		color: $textColor;
-		font-size: $mobileParagraphFontSize;
-		width: 60%;
-		float: right;
-		padding-top: 50px;
-		padding-right: 5%;
-		padding-left: 5%;
-	}
-	.content-homepage .blog .img-wrapper {
-		width: 30%;
-		margin-top: 25px;
-		margin-bottom: 25px;
-		height: 200px;
-		padding: 0;
-		float: left;
-	}
-
-	.content-homepage .resource {
-		width: 100%;
-		margin: 0 auto;
-		height: 250px;
-		margin-top: 1em;
-		margin-bottom: 2em;
-		display: block;
-		/*
-		width: 50%;
-		height: 200px;
-		*/
-		
-	}
-	.content-homepage .resource .categorie-wrapper {
-		width: 250px;
-		height: 4vw;
-		line-height: 4vw;
-	}
-	.content-homepage .resource .category {
-		font-size: 3vw;
-	}
-	.content-homepage .resource .title-wrapper {
-		margin-top: 25px;
-		height: 4vw;
-		line-height: 4vw;
-		vertical-align: middle;
-	}
-	.content-homepage .resource .title {
-		font-size: $mobileParagraphFontSize;
-	}	
 }

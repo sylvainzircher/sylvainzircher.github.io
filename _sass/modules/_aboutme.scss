@@ -3,84 +3,35 @@
  */
 
 .aboutme {
-	width: $blogDesktopWidth;
-	margin: 0 auto;
+  width: $websiteDesktopWidth;
+  margin: 0 auto;
 }
 
 .aboutme img {
-	display: block;
-	width: 300px;
-	margin: 0 auto;
-	margin-top: 50px;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .aboutme h1 {
-	color: black;
-	font-weight: 100; 
+  color: black;
+  font-weight: 100; 
   font-size: $desktopTitleFontSize;
   margin-top: $desktopTitleMargin;
-	font-family: $font;
+  font-family: $font;
 }
 
 .aboutme p {
-	font-weight: 100;
+  font-weight: 100;
   font-size: $desktopParagraphFontSize;
   line-height: $desktopParagraphLineHeight;
   margin-top: $desktopParagraphMargin;
   margin-bottom: $desktopParagraphMargin;
   text-align: justify;
-  color: $textColor;	
+  color: $textColor;  
 }
 
 .aboutmeclosingstatement {
-	margin-bottom: 100px;	
-}
-
-
-@media only screen and (max-width: 840px) {
-  .aboutme {
-  	width: $websiteMobileWidth;
-    margin: 0 auto;
-    margin-top: $responsiveMargin;
-    margin-bottom: $responsiveMargin;    
-  }
-
-  .aboutme {
-    height: auto;
-  }
-
-  .aboutme p {
-    margin-bottom: $responsiveMargin;
-    margin-top: $responsiveMargin; 
-  }
-}
-
-@media only screen and (max-device-width: 480px) {
-
-  .aboutme {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-    margin-top: $mobileTitleMargin;
-    margin-bottom: $mobileTitleMargin;
-  }
-
-  .aboutme {
-    height: auto;
-  }
-
-  .aboutme p {
-    margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin;
-    font-size: $mobileParagraphFontSize;
-  } 
-
-  .aboutme h1 {
-    color: black;
-    font-weight: 100; 
-    font-size: $mobileTitleFontSize;
-    font-family: $font;
-    margin-bottom: $mobileTitleMargin;
-    margin-top: $mobileTitleMargin;  
-  }
-
+  margin-bottom: 100px; 
 }

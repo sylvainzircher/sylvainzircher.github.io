@@ -11,7 +11,7 @@
 }
 
 .post-header, .post {
-  width: $blogDesktopWidth;
+  width: $websiteDesktopWidth;
   margin: 0 auto;
 }
 
@@ -132,62 +132,4 @@ th, td {
   line-height: $desktopParagraphLineHeight; 
   text-align: left;
   margin-bottom: $desktopParagraphMargin;
-}
-
-@media only screen and (max-width: 840px){
-  .post-header, .post {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-  }
-}
-
-@media only screen and (max-device-width: 840px) {
-  .post-header, .post {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-  }
-
-  .post-header h1 {
-    font-size: $mobileTitleFontSize;
-  }
-
-  .post h3 {
-    font-size: $mobileParagraphFontSize;
-    margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin; 
-  }
-
-  .post p {
-    font-size: $mobileParagraphFontSize;
-    line-height: $desktopParagraphLineHeight;
-    margin-bottom: $mobileParagraphMargin;  
-  }
-
-  .post img {
-    margin-bottom: $mobileParagraphMargin; 
-    margin-top: $mobileParagraphMargin;
-    width: 100%;
-    height: auto;
-  }
-
-  .post-header .tag {
-    font-size: $mobileParagraphFontSize;
-    line-height: $mobileTagHeight;
-    height: $mobileTagHeight;
-    width: $mobileTagWidth;
-    margin-bottom: $mobileParagraphMargin;
-    margin-top: 1em;
-  }
-
-  table {
-    margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin;
-    font-size: $mobileResourcesParagraphFontSize;
-  }
-
-  .language-python, .language-r, .language-plaintext, .language-javascript {
-    margin-bottom: $mobileParagraphMargin;
-    margin-top: $mobileParagraphMargin;
-    font-size: $mobileParagraphFontSize;   
-  }
 }

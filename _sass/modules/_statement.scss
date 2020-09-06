@@ -15,31 +15,6 @@
 	display: inline-block;
 	color: $statementText;
 	font-weight: 10;  
-	font-size: 46px;
+	font-size: 2rem;
 	width: 80%;
-}
-
-@media only screen and (max-width: 840px) {
-  .statement h1 {
-    font-size: 2em;
-  }	
-}
-
-.statement img {
-	display: inline-block;
-	float: right;
-	/**
-	position: absolute;
-	top: -50px;
-	right: -490px;
-	**/
-}
-
-@media only screen and (max-device-width: 480px) {
-  .statement h1 {
-    font-size: $mobileTitleFontSize;
-  }
-  .statementWrapper {
-  	width: $websiteMobileWidth;
-  }
 }

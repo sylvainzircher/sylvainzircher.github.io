@@ -19,14 +19,3 @@
   padding-bottom: 0.5em;
   margin: 0;
 }
-
-@media only screen and (max-width: 840px),  only screen and (max-device-width: 840px) {
-  .site-footer-content-wrapper {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-  }
-  .site-footer-content-wrapper p {
-    padding-top: 1em;
-    padding-bottom: 1em;
-  }
-}

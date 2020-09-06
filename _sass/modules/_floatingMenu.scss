@@ -65,14 +65,3 @@ div .fa-reorder {
     color: $brand;
   }  
 }
-
-@media only screen and (max-device-width: 840px) {
-  
-  div .fa-reorder {font-size: $mobileTitleFontSize;}
-
-  #nav-list a {
-    font-size: $mobileTitleFontSize;
-    margin-bottom: $headerMargin;
-    margin-top: $headerMargin;
-  }
-}

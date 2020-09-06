@@ -3,7 +3,7 @@
  */
 
 .share-bar {
-  width: $blogDesktopWidth;
+  width: $websiteDesktopWidth;
   margin: 0 auto;
   margin-top: $desktopParagraphMargin;
   margin-bottom: $desktopParagraphMargin;
@@ -15,78 +15,45 @@
   font-size: $desktopParagraphFontSize;
   display: inline-block;
   margin-right: $desktopParagraphMargin;
+  margin-bottom: 2rem;
 }
 
 .share-buttons {
-	display: inline-block;
+  display: inline-block;
 }
 
 .share-buttons a {
-	color: white;
-	margin-left: 20px;
-	text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
   text-align: center;
-	width: 30px;
+  width: 30px;
   height: 30px;
-	line-height: 30px;  	
+  line-height: 30px;    
   display: inline-block;
   border-radius: 50%;
-  font-size: $desktopParagraphFontSize;  	
+  font-size: $desktopParagraphFontSize;   
   border-radius: 50%;
-	opacity: 0.75;
-	transition: opacity 0.15s linear;
+  opacity: 0.75;
+  transition: opacity 0.15s linear;
 }
 
 .share-buttons a:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 .facebook {
- 	background: #3b5998;
+  background: #3b5998;
 }
 
 .twitter {
-  	background: #55acee;
+    background: #55acee;
 }
 
 .email {
-  	background: $headerBackground;
+    background: $headerBackground;
 }
 
 .linkedin {
-  	background: #0077b5;
-}
-
-@media only screen and (max-width: 840px) {
-  .share-bar {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-    margin-top: $desktopParagraphMargin;
-    margin-bottom: $desktopParagraphMargin;    
-  }
-}
-
-@media only screen and (max-device-width: 840px) {
-  .share-bar {
-    width: $websiteMobileWidth;
-    margin: 0 auto;
-  }
-
-  .share-bar h4 {
-    display: none;
-  }
-
-  .share-buttons a {
-    font-size: $sharingFontMobile;
-    width: $sharingWidthMobile;
-    height: $sharingHeightMobile;
-    line-height: $sharingHeightMobile;
-    margin-right: $sharingMarginMobile;
-    margin-left: 0;
-    margin-bottom: $sharingMarginMobile;
-  }
-
-  .share-buttons {
-   margin-bottom: $sharingMarginMobile; 
-  }
+    background: #0077b5;
 }
