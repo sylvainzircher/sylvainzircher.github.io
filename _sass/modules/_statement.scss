@@ -4,7 +4,7 @@
 }
 
 .statementWrapper {
-	width: $websiteDesktopWidth;
+	width: 100%;
 	margin: 0 auto;
 	height: 400px;
     display:flex;
@@ -14,7 +14,35 @@
 .statement h1 {
 	display: inline-block;
 	color: $statementText;
+	margin-left: 10%;
 	font-weight: 10;  
 	font-size: 2rem;
-	width: 80%;
+	width: 50%;
+	z-index: 2;
+}
+
+.statement img {
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	right: 0;
+	top: 10%;
+	/**	
+	float: left;	
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 0;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;**/
+}
+
+@media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
+	.statement img {
+		display: none;
+	}
+	.statement h1 {
+		width: 70%;
+	}
 }
