@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Selecting a Range in Google Sheets Using Apps-Script"
+title: "Selecting a Range in Google Sheets Using Apps Script"
 slug: select-range-with-app-script
 categories: Apps-Script
 date: 2020-07-13

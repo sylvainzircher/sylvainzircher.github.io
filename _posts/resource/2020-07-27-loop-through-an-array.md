@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "How to Loop Through an Array in Apps-Script"
+title: "How to Loop Through an Array in Apps Script"
 slug: How-to-loop-through-an-array-in-Apps-Script
 categories: Apps-Script
 date: 2020-07-27
