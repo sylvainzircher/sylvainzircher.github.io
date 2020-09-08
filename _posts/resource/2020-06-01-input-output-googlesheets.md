@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "GoogleSheets I/O using App Script"
+title: "GoogleSheets I/O using Apps Script"
 slug: googlesheets-input-output
 categories: Apps-Script
 date: 2020-04-03
