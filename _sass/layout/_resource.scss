@@ -134,9 +134,22 @@ th, td {
   margin-bottom: $desktopParagraphMargin;
 }
 
+/**
+* Video
+*/
+
+  video {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+
 @media only screen and (max-width: 840px), only screen and (max-device-width: 840px) {
   .post-header, .post {
     width: $websiteDesktopWidth;
     margin: 0 auto;  
+  }
+
+  video {
+    width: 100%;
   }
 }

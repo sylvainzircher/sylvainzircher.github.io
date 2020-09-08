@@ -8,7 +8,7 @@ permalink: /resources/:categories/:title:output_ext
 ---
 
 
-In this post we will cover different ways of selecting a range within your Google Sheets using App Script.
+In this post we will cover different ways of selecting a range within your Google Sheets using Apps Script.
 
 ### Let's create a simple function that selects one specific cell
 

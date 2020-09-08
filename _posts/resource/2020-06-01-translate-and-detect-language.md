@@ -44,12 +44,4 @@ Source_language, is auto by default (GoogleSheets will automatically detect the 
 
 Finally the target_language is the two-letters code for the language we want the text to be translated into.
 
-<!--
-<picture>
-	<source media="(min-width: 840px)" srcset="{{ 'assets/img/googlesheets/img-googletranslate/googletranslate_formula_desktop.png' | relative_url }}">
-	<source media="(max-width: 840px)" srcset="{{ 'assets/img/googlesheets/img-googletranslate/googletranslate_formula_mobile.png' | relative_url }}">
-	<img src="{{ 'assets/img/googlesheets/img-googletranslate/googletranslate_formula_mobile.png' | relative_url }}" alt="Google Translate Summary"/>
-</picture>
--->
-
 ### Et voila!

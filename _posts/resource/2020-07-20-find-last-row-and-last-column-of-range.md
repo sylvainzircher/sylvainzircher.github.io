@@ -8,7 +8,7 @@ permalink: /TipsnTricks/:categories/:title:output_ext
 ---
 
 
-When building macros in App Script, learning very quickly how to automatically detect the last row and the last column of a range is a massive time-saver! You can either build your own functions or you can leverage some very handy built-in ones: <em>getLastRow()</em> and <em>getLastColumn()</em>. Let's have a look.
+When building macros in Apps Script, learning very quickly how to automatically detect the last row and the last column of a range is a massive time-saver! You can either build your own functions or you can leverage some very handy built-in ones: <em>getLastRow()</em> and <em>getLastColumn()</em>. Let's have a look.
 
 
 ### Let's access the sheet first

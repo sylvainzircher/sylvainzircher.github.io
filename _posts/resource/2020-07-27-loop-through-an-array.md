@@ -7,7 +7,7 @@ date: 2020-07-27
 permalink: /TipsnTricks/:categories/:title:output_ext
 ---
 
-Looping through an array is a very important trick to learn in Apps-Script. In this example we will select a range, where each cell contains a number, then we will loop trough all the values and sum them up.
+Looping through an array is a very important trick to learn in Apps Script. In this example we will select a range, where each cell contains a number, then we will loop trough all the values and sum them up.
 
 ### Let's select the range first
 
