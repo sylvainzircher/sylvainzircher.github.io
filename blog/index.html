@@ -35,6 +35,12 @@
 
 		<body>
 			{% include header.html %}
+			<section class = "statement">
+				<div class = "statementWrapper">
+					<h1><b>Thoughts</b> about statistics, automation and data processing as well as <b>practical tools</b></h1>
+					<img src= "{{ '/assets/img/hero-img/test-lead-image-blog-v0.png' | relative_url }}" alt="Tips, tools and resources for getting better insights from data">
+				</div>
+			</section>	
 			<section class="blogList">
 			<ul>
 				{% for post in site.posts %}
