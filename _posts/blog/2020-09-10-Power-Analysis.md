@@ -12,7 +12,9 @@ permalink: /blog/:categories/:title:output_ext
 
 <p class="intro">“How long should we run the AB test for?” is one of the most common questions asked when working in any department running experiments. This is indeed a very important one that needs to be answered and there are countless sample size calculators out there to help you. However these calculators might give very different answers because they can be based on different formulas - also they might disappear suddenly if the site they are on is no longer online. Having one on your own that you can rely on seems crucial. Building one in Google Sheets is easy. In this post I will show you how.</p>
 
-<p>It all starts with the formula to use. I will cover the case of a binary variable only as it is the most common. A conversion can be thought of as a binary variable (do people convert or not, click on a cta or not etc… there are only two outcomes) and as such a conversion rate falls within the case I will take you through here. So back to the formula, I will apply the following one:</p>
+<p>By the way, if you do not want to follow along and read the full blog post <a href="https://docs.google.com/spreadsheets/d/1Afp_jE3v585zs0LXIOzsE8DTONQtZqwbaj4XOTcgvUY/edit#gid=0" target="_blank"> here is a Google Sheets that includes the sample size calculator</a> (feel free to make a copy) so you can get crackin' straight away. Otherwise please read on.</p>
+
+<p>It all starts with the formula. I will cover the case of a binary variable only as it is the most common. A conversion can be thought of as a binary variable (do people convert or not, click on a cta or not etc… there are only two outcomes) and as such a conversion rate falls within the case I will take you through here. So back to the formula, I will apply the following one:</p>
 
 
 ```
@@ -22,7 +24,7 @@ with
 f(α, β) = [Φ-1(α) + Φ-1(β)]2
 ```
 
-<p>I am referring to this <a href="https://www.sealedenvelope.com/power/binary-superiority/">sample size calculator</a> where the reference for the formula is clearly cited: <i>Pocock SJ. Clinical Trials: A Practical Approach. Wiley; 1983</i>.</p>
+<p>I am referring to this <a href="https://www.sealedenvelope.com/power/binary-superiority/" target="_blank">sample size calculator</a> where the reference for the formula is clearly cited: <i>Pocock SJ. Clinical Trials: A Practical Approach. Wiley; 1983</i>.</p>
 
 <p> At a high level <i>α</i> is the significance level, often equal to 0.05 and <i>1-β</i> is the power of the test which is often 0.8. <i>p1</i> is the historical conversion rate on the page you are trying to optimize for example. <i>p2</i> is the conversion rate expected for the variant which is basically the historical conversion rate plus the expected uplift. Finally <i>Φ-1</i> is the cumulative distribution function of a standardised normal deviate - nothing to be worried about here as we can calculate it pretty easily in Google Sheets.</p>
 
