@@ -45,6 +45,31 @@
 			<ul>
 				{% for post in site.posts %}
 					{% if post.type contains 'Article' %}
+						{% if post.title contains 'Experiment' %}
+							<style>
+							.experiment {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .experiment {   
+							        background-image: url({{'/assets/img/articles/Power-Analysis/power-analysis-blog-vignette.png' | relative_url }});
+							    }
+							}
+							@media (max-device-width: 480px) { 
+								.experiment {
+								    background-image: none; 
+								}
+							}					
+							</style>
+							<li class="experiment">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}
 						{% if post.title contains 'Summarize' %}
 							<style>
 							.automate {
