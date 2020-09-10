@@ -3,7 +3,7 @@ layout: "blog"
 title: "Use Google Sheets to Find How Long to Run an Experiment For"
 slug: how-long-run-experiment-power-analysis-googlesheets
 subtitle: "Build Your Own Power Analysis Tool in Google Sheets"
-date: 2020-09-10
+date: 2020-09-09
 author: "Sylvain Zircher"
 type: "Article"
 category: "Statistics"
