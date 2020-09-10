@@ -64,4 +64,4 @@ f(α, β) = [Φ-1(α) + Φ-1(β)]2
 
 <p>Usually defining the expected uplift or Minimum Detectable Effect is quite difficult. One should run various scenarios to find out which uplift makes sense in the context of your historical conversion rate and traffic.</p>
 
-<p>If you are tech savvy and know how to leverage Apps Script - the next step would be to automate the sample size calculation for a list of MDEs to obtain a contingency table linking expected uplifts to test durations. Then you are in position to make a data driven decision about which MDE might be best to target.</p>
+<p>If you are tech savvy and know how to leverage Apps Script - the next step would be to automate the sample size calculation for a list of MDEs to obtain a contingency table linking expected uplifts to test durations. Then you are in a position to make a data driven decision about which MDE might be best to target.</p>
