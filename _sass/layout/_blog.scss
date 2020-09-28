@@ -211,10 +211,16 @@ blockquote .before {
 
 .article li {
   margin-left: 30px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $font; 
+  color: #505050; 
+  margin-bottom: 3%;
+  text-align: left;  
 }
 
 .article li li {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 32px;
   font-family: $font; 
   color: #505050; 

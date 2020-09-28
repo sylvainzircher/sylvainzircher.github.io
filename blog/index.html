@@ -45,6 +45,31 @@
 			<ul>
 				{% for post in site.posts %}
 					{% if post.type contains 'Article' %}
+						{% if post.title contains 'Power' %}
+							<style>
+							.power {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .power {   
+							        background-image: url({{'/assets/img/articles/Sample-size-calculation-automation/sample-size-automation-vignette.png' | relative_url }});
+							    }
+							}
+							@media (max-device-width: 480px) { 
+								.power {
+								    background-image: none; 
+								}
+							}					
+							</style>
+							<li class="power">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}					
 						{% if post.title contains 'Experiment' %}
 							<style>
 							.experiment {
