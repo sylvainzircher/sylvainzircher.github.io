@@ -31,7 +31,7 @@ If you want to find out how you can implement this formula in Google Sheets I ha
 
 <p>The script I am sharing with you assumes you have one sheets called “Automated” that is organised as follows:</p>
 <ul><li>cells B1 to B4 are reserved for the following user inputs: the statistical significance alpha in cell B1, (1 - Beta) in cell B2, the Baseline Conversion Rate in B3 and the daily traffic in B4,</li>
-<li>from cells A8:B8 you can start listing the number of variants (without including the control) and Minimum Detectable Effects combinations you are envisaging for your test.</li>
+<li>from cells A8:B8 you can start listing the number of variants (without including the control) and Minimum Detectable Effects combinations you are considering for your test.</li>
 </ul> 
 <p>Visual summary below:</p>
 
