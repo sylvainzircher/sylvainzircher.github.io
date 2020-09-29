@@ -10,6 +10,18 @@
 		<h1>My own tools</h1>
 		<ul>
 			{% for post in site.posts %}
+				{% if post.title contains 'Power' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/Sample-size-calculation-automation/sample-size-automation-vignette-small.png' }}" alt="Sample Size Calculator in Google Sheets">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}
+			{% endfor %}			
+			{% for post in site.posts %}
 				{% if post.title contains 'Experiment' %}
 					<li style="border: 1px solid #EAE3E3;" class="blog">
 						<a href = "{{ post.url }}">
