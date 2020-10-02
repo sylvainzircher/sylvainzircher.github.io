@@ -1,7 +1,7 @@
 ---
 layout: "blog"
-title: "Automating Your Power Analysis Using Apps Script"
-slug: automating-sample-size-estimation-power-analysis-ABtest
+title: "Automate Your Power Analysis Using Apps Script"
+slug: automate-sample-size-estimation-power-analysis-ABtest
 subtitle: "Let Apps Script do The Heavy Lifting For You"
 date: 2020-09-28
 author: "Sylvain Zircher"
