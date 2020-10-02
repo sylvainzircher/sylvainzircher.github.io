@@ -98,7 +98,7 @@ This is usually the metric where I see lots of stakeholders struggling with. “
 
 <p>The boring and time consuming part here is having to compute the sample size for every single combination you are interested in. Like in the above example if you have a long list of different combinations (MDE, number of variations) you can spend a lot of time coming up with the sample size and test duration figures.</p>
 
-<p><a href="https://sylvainzircher.com/blog/statistics/automating-sample-size-estimation-power-analysis-ABtest.html" target="_blank">In this blog post</a> I share some Apps Script code to automate all the calculations for you. Neat right? Now all you need to do follow the steps in the post and you are all set!</p>
+<p><a href="https://sylvainzircher.com/blog/statistics/automate-sample-size-estimation-power-analysis-ABtest.html" target="_blank">In this blog post</a> I share some Apps Script code to automate all the calculations for you. Neat right? Now all you need to do follow the steps in the post and you are all set!</p>
 
 <h3 id="Step3">How to calculate statistical significance when you do not have a tool</h3>
 
