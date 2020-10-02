@@ -3,7 +3,7 @@ layout: "blog"
 title: "Bayesian AB Test Calculator in Google Sheets"
 slug: bayesian-ABtest-calculator-google-sheets
 subtitle: "Get Your Own Bayesian ABTest Calculator No Code Involved"
-date: 2020-10-05
+date: 2020-10-02
 author: "Sylvain Zircher"
 type: "Article"
 category: "Statistics"
