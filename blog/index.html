@@ -45,6 +45,56 @@
 			<ul>
 				{% for post in site.posts %}
 					{% if post.type contains 'Article' %}
+						{% if post.title contains 'Cheap' %}
+							<style>
+							.cheap {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .cheap {   
+							        background-image: url({{'/assets/img/articles/ABtest-on-the-cheap/ABTest-on-the-cheap-vignette.png' | relative_url }});
+							    }
+							}
+							@media (max-device-width: 480px) { 
+								.cheap {
+								    background-image: none; 
+								}
+							}					
+							</style>
+							<li class="cheap">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}
+						{% if post.title contains 'Bayesian' %}
+							<style>
+							.bayesian {
+							    background-image: none; 
+							}
+							@media (min-width: 840px) { 
+							    .bayesian {   
+							        background-image: url({{'/assets/img/articles/Bayesian-statistic-calculator/bayesian-stats-vignette.png' | relative_url }});
+							    }
+							}
+							@media (max-device-width: 480px) { 
+								.bayesian {
+								    background-image: none; 
+								}
+							}					
+							</style>
+							<li class="bayesian">
+								<a href = "{{ post.url }}">
+									<span class="category">{{ post.categories }}</span>
+									<span class="title">{{ post.title }}</span>
+									<span class="authorNdate">{{ post.author }}</span>
+									<!--<span class="authorNdate">{{ post.author }} | {{ post.date | date: '%B %d, %Y' }}</span>-->
+								</a>								
+							</li>
+						{% endif %}
 						{% if post.title contains 'Power' %}
 							<style>
 							.power {

@@ -73,6 +73,54 @@
   line-height: 100%;
 }
 
+.menu { 
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  padding: 1em;
+  padding-top: 2em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.menu .menu-title {
+  /*border: 1px solid #ccc;*/
+  border: 1px solid $brand;
+  background-color: white;
+  width: 80%;
+  font-size: 22px;
+  padding: 1em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.fa-rocket {
+  color: $brand;
+  font-size: 26px
+}
+
+.menu ol {
+  padding: 0;
+  counter-reset: item;
+}
+
+.menu ol > li {
+  margin: 0;
+  padding: 0 0 1em 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+.menu ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+}
+
 
 @media only screen and (max-width: 840px) {
   .blogList ul li a {

@@ -6,7 +6,7 @@ categories: python
 date: 2020-02-16
 permalink: /resources/:categories/:title:output_ext
 ---
-In this post I will try to explain how we can transition from a DataFrame with a wide format to a DataFrame with a long format. Let's say we have a dataset with three columns (the definitions does not really matter here but it just helps better understand what we are trying to do!): one column containing a list of marketing channels, a second containing the number of converted sessions and finally the average sessions duration related to these channels.
+In this post I will try to explain how we can transition from a DataFrame with a wide format to a DataFrame with a long format. Let's say we have a dataset with three columns (the definitions does not really matter here but it just helps better understand what we are trying to do): one column containing a list of marketing channels, a second containing the number of converted sessions and finally the average sessions duration related to these channels.
 
 Now what we want to do is group the two columns containing the average duration and the number of converted sessions together under one column called Value. And finally have another column called Metric which will help us differentiate between the two measures like so:
 

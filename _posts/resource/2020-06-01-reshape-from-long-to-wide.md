@@ -6,7 +6,7 @@ categories: python
 date: 2020-02-16
 permalink: /resources/:categories/:title:output_ext
 ---
-In this post I will explain how we can transform a DataFrame with a long format into a DataFrame with a wide format. As an example let's say we have a dataset with three columns: one column containing a list of marketing channels, a second containing a list of metrics for each channel and a third column defining what these metrics are: either the average duration of the sessions or the number of converted sessions belonging to the respective channels. 
+In this post I will explain how we can transform a DataFrame with a long format into a DataFrame with a wide format. As an example let's say we have a dataset with three columns: one column containing a list of marketing channels, a second one containing a list of metrics for each channel (either the average duration of the sessions or the number of converted sessions belonging to the respective channels) and finally a third one reporting the values for each metric. 
 
 Now what we want to do is "ungroup" the metrics contained in columns 2 (metric definition) and 3 (values). In other words, we want to separate the average duration and the number of converted sessions metrics and create a column for each. This is summarised as follows:
 

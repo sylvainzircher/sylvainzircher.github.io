@@ -10,6 +10,16 @@
 		<h1>My own tools</h1>
 		<ul>
 			{% for post in site.posts %}
+				{% if post.title contains 'Bayesian' %}
+					<li style="border: 1px solid #EAE3E3;" class="blog">
+						<a href = "{{ post.url }}">
+							<div class="img-wrapper">
+								<img src= "{{'/assets/img/articles/Bayesian-statistic-calculator/bayesian-stats-vignette-small.png' }}" alt="Bayesian ABtest Calculator">
+							</div>
+							<div class="title-wrapper"><span class="title">{{ post.title }}</span></div>
+						</a>
+					</li>
+				{% endif %}			
 				{% if post.title contains 'Power' %}
 					<li style="border: 1px solid #EAE3E3;" class="blog">
 						<a href = "{{ post.url }}">
@@ -20,7 +30,7 @@
 						</a>
 					</li>
 				{% endif %}
-			{% endfor %}			
+			{% endfor %}		
 			{% for post in site.posts %}
 				{% if post.title contains 'Experiment' %}
 					<li style="border: 1px solid #EAE3E3;" class="blog">
