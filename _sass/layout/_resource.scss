@@ -135,6 +135,30 @@ th, td {
 }
 
 /**
+ * Links
+ */
+
+.post a {
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $font; 
+  color: #505050;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  text-decoration: none;
+  border-bottom: 4px solid #F9D342;
+  transition: all 0.3s ease-in-out;
+}
+
+.post a:hover {
+  color: #292826;
+  background-color: #F9D342;
+  border-bottom: none;
+  transition: all 0.3s ease-out-in;
+}
+
+/**
 * Video
 */
 
