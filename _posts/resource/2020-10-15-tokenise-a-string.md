@@ -1,7 +1,7 @@
 ---
 layout: "resource"
 title: "String Tokenisation in Python"
-slug: correlation-matrix-in-python
+slug: string-tokenisation-python
 categories: python
 date: 2020-10-15
 permalink: /resources/:categories/:title:output_ext

@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Convert all the values in a column to lower/upper case"
+title: "Convert All the Values in a Column to Lower/Upper Case"
 slug: python-convert-values-in-column-to-lower-or-upper-case
 categories: python
 date: 2020-10-15
