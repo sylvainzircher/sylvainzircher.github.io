@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Subselect a dataframe"
+title: "Subselect a Dataframe"
 slug: subselect-dataframe
 categories: R
 date: 2020-10-03

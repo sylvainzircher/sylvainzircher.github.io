@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Add your function to the Google Sheets UI"
+title: "Add your Function to the Google Sheets UI"
 slug: add-apps-script-function-to-google-sheets-ui
 categories: Apps-Script
 date: 2020-10-03
