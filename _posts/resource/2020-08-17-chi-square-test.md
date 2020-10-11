@@ -1,6 +1,6 @@
 ---
 layout: "resource"
-title: "Performing a chi-square Test in Python"
+title: "Performing a Chi-square Test in Python"
 slug: python-chi-square-test
 categories: python
 date: 2020-08-17
