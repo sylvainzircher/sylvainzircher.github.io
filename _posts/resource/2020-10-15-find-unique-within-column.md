@@ -7,7 +7,7 @@ date: 2020-10-15
 permalink: /resources/:categories/:title:output_ext
 ---
 
-The tile is self-explanatory so let's get to it!
+The title is self-explanatory so let's get to it!
 
 ### Let's get some data to play with first!
 ```r
