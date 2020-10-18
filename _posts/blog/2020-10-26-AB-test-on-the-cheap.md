@@ -2,7 +2,7 @@
 layout: "blog"
 title: "AB Test Result Analysis on the Cheap"
 slug: abtest-on-the-cheap
-subtitle: "Use Google Sheets to Dimension Your Experiments and Analyse Results Both From a Frequentist and a Bayesian Perspective"
+subtitle: "Use Google Sheets to Dimension Your Experiments and Analyse AB Test Results"
 date: 2020-10-26
 author: "Sylvain Zircher"
 type: "Article"
