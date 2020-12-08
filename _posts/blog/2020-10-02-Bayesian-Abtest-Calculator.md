@@ -19,7 +19,7 @@ permalink: /blog/:categories/:title:output_ext
 <img src="{{'/assets/img/articles/Bayesian-statistic-calculator/Choice-of-prior.png' | relative_url }}" alt="Choose your prior function for your Bayesian ABtest calculation">
 <li>Test Results: this is where you input the sample sizes and number of conversions for your AB test. The Google Sheets will plot the posterior distributions and calculate the probability of the variant beating the control.</li>
 <img src="{{'/assets/img/articles/Bayesian-statistic-calculator/ABtest-analysis.png' | relative_url }}" alt="Analyse your ABtest using Bayesian Statistics">
-<li>The Uplift: the tool will output a mean uplift, the median uplift and the 30th Percentile for the uplift.<a href="https://dataorigami.net/blogs/napkin-folding/17543303-the-binary-problem-and-the-continuous-problem-in-a-b-testing" target="_blank"> 	As advised by Cameron Davidson-Pillon</a> I always report on a conservative figure here and prefer reporting on the 30th percentile as opposed to the mean or median.</li>
+<li>The Uplift: the tool will output the mean uplift, the median uplift and the 30th Percentile for the uplift.<a href="https://dataorigami.net/blogs/napkin-folding/17543303-the-binary-problem-and-the-continuous-problem-in-a-b-testing" target="_blank"> 	As advised by Cameron Davidson-Pillon</a> I always report on a conservative figure here and prefer reporting on the 30th percentile as opposed to the mean or median.</li>
 <img src="{{'/assets/img/articles/Bayesian-statistic-calculator/Uplift-definition.png' | relative_url }}" alt="Analyse your ABtest using Bayesian Statistics">
 </ol>
 
